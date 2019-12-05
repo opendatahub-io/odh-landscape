@@ -1,0 +1,24 @@
+{
+  "name": "odh-landscape",
+  "version": "0.0.1",
+  "description": "Interactive visualization of a technology landscape",
+  "engines": {
+    "npm": ">=3",
+    "node": ">= 10.5"
+  },
+  "scripts": {
+    "build:full": "npm run latest; npm config set scripts-prepend-node-path true; export PROJECT_PATH=\"$PWD\"; npm explore interactive-landscape -- npm run build; cp nginx.conf dist",
+    "build": "npm config set scripts-prepend-node-path true; export PROJECT_PATH=\"$PWD\"; npm explore interactive-landscape -- npm run s2i-build",
+    "postbuild": "cp nginx.conf dist"
+  },
+  "author": "cchase",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "interactive-landscape": "github:cfchase/landscapeapp#dev"
+  },
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.cee.redhat.com/cchase/odh-landscape"
+  }
+}

@@ -1,0 +1,131 @@
+# THIS FILE IS GENERATED AUTOMATICALLY!
+landscape:
+  - category:
+    name: AI and Machine Learning Lifecycle
+    subcategories:
+      - subcategory:
+        name: Experimentation & Parameter Tuning
+        items: []
+      - subcategory:
+        name: Model Serving
+        items: []
+      - subcategory:
+        name: Lineage
+        items: []
+      - subcategory:
+        name: Interactive Workbench
+        items: []
+      - subcategory:
+        name: Pre-defined Models as a Service
+        items: []
+      - subcategory:
+        name: AI/ML Modules and Extensions
+        items: []
+  - category:
+    name: Data Analysis
+    subcategories:
+      - subcategory:
+        name: Business Intelligence
+        items: []
+      - subcategory:
+        name: Dashboards and Charts
+        items: []
+      - subcategory:
+        name: Data Exploration
+        items: []
+  - category:
+    name: Data Processing
+    subcategories:
+      - subcategory:
+        name: Message Bus
+        items: []
+      - subcategory:
+        name: Workflows
+        items: []
+      - subcategory:
+        name: Data Orchestration
+        items: []
+      - subcategory:
+        name: Analytics Engine
+        items: []
+      - subcategory:
+        name: Stream Processing
+        items: []
+      - subcategory:
+        name: Batch Processing
+        items: []
+  - category:
+    name: Data Store
+    subcategories:
+      - subcategory:
+        name: Object Storage
+        items: []
+      - subcategory:
+        name: In Memory Data Store
+        items: []
+      - subcategory:
+        name: Data Virtualization
+        items: []
+      - subcategory:
+        name: NoSQL Databases
+        items: []
+      - subcategory:
+        name: Relational Databases
+        items: []
+      - subcategory:
+        name: Analytics Database/Data Warehouse
+        items: []
+  - category:
+    name: Data Governance and Security
+    subcategories:
+      - subcategory:
+        name: Provenance and Lineage
+        items: []
+      - subcategory:
+        name: Authentication
+        items: []
+      - subcategory:
+        name: Authorization
+        items: []
+      - subcategory:
+        name: Data Encryption
+        items: []
+      - subcategory:
+        name: Data Catalog
+        items: []
+      - subcategory:
+        name: Data Classification
+        items: []
+      - subcategory:
+        name: Data Versioning
+        items: []
+      - subcategory:
+        name: API Management
+        items: []
+  - category:
+    name: Infrastructure
+    subcategories:
+      - subcategory:
+        name: Monitoring and Alerting
+        items: []
+      - subcategory:
+        name: Metric Visualization
+        items: []
+      - subcategory:
+        name: AIOPs
+        items: []
+      - subcategory:
+        name: Hardware Acceleration
+        items: []
+      - subcategory:
+        name: Hardware Stacks
+        items: []
+  - category:
+    name: Open Data Hub Partner
+    subcategories:
+      - subcategory:
+        name: General
+        items: []
+twitter_options:
+  count: 32
+  since_id: '1121971949217837057'
