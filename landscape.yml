@@ -4,100 +4,3722 @@ landscape:
   subcategories:
   - subcategory:
     name: Experimentation & Parameter Tuning
-    items: []
+    items:
+    - item:
+      organization: NVIDIA
+      name: NVIDIA DIGITS (Experimentation & Parameter Tuning)
+      homepage_url: https://developer.nvidia.com/digits
+      open_source: true
+      repo_url: https://github.com/NVIDIA/DIGITS
+      logo: nvidia.svg
+      twitter: https://twitter.com/NVIDIAHPCDev
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+      allow_duplicate_repo: true
+    - item:
+      organization: IBM
+      name: IBM Watson Machine Learning (Experimentation & Parameter Tuning)
+      homepage_url: https://www.ibm.com/cloud/machine-learning
+      open_source: false
+      repo_url: null
+      logo: ibm.svg
+      twitter: https://twitter.com/IBMcloud
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: H20.ai
+      name: H20.ai H2O (Experimentation & Parameter Tuning)
+      homepage_url: https://www.h2o.ai/
+      open_source: false
+      repo_url: null
+      logo: h2o.svg
+      twitter: https://twitter.com/h2oai
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: H20.ai
+      name: H20.ai Driverless AI (Experimentation & Parameter Tuning)
+      homepage_url: https://www.h2o.ai/products/h2o-driverless-ai/
+      open_source: false
+      repo_url: null
+      logo: h2o.svg
+      twitter: https://twitter.com/h2oai
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+      status:
+      - community
+      - certified
+      - ubi
+    - item:
+      organization: Perceptilabs
+      name: Perceptilabs Modeling and Visualization Tool (Experimentation & Parameter
+        Tuning)
+      homepage_url: https://www.perceptilabs.com/
+      open_source: false
+      repo_url: null
+      logo: perceptilabs.svg
+      twitter: https://twitter.com/perceptilabs
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+      status:
+      - community
+      - certified
+      - ubi
+    - item:
+      organization: Databricks
+      name: Databricks MLFlow (Experimentation & Parameter Tuning)
+      homepage_url: https://databricks.com/mlflow
+      open_source: false
+      repo_url: https://github.com/mlflow/mlflow
+      logo: databricks.svg
+      twitter: https://twitter.com/databricks
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+      allow_duplicate_repo: true
+    - item:
+      organization: Databricks
+      name: Databricks Unified Analytics Platform (Experimentation & Parameter Tuning)
+      homepage_url: https://databricks.com/product/unified-analytics-platform
+      open_source: false
+      repo_url: null
+      logo: databricks.svg
+      twitter: https://twitter.com/databricks
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Domino Data Lab
+      name: Domino Data Lab Domino Data Science Platform (Experimentation & Parameter
+        Tuning)
+      homepage_url: https://www.dominodatalab.com/
+      open_source: false
+      repo_url: null
+      logo: domino.svg
+      twitter: https://twitter.com/dominodatalab
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: KNIME
+      name: KNIME Analytics Platform (Experimentation & Parameter Tuning)
+      homepage_url: https://www.knime.com
+      open_source: true
+      repo_url: null
+      logo: knime.svg
+      twitter: https://twitter.com/knime
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Skymind
+      name: Skymind (Experimentation & Parameter Tuning)
+      homepage_url: https://skymind.ai/
+      open_source: false
+      repo_url: https://github.com/eclipse/deeplearning4j
+      logo: skymind.svg
+      twitter: https://twitter.com/skymindio
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+      allow_duplicate_repo: true
+    - item:
+      organization: DataRobot
+      name: DataRobot (Experimentation & Parameter Tuning)
+      homepage_url: https://www.datarobot.com/
+      open_source: false
+      repo_url: null
+      logo: datarobot.svg
+      twitter: https://twitter.com/DataRobot
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Paperspace
+      name: Paperspace Gradient (Experimentation & Parameter Tuning)
+      homepage_url: https://gradient.paperspace.com/
+      open_source: false
+      repo_url: https://github.com/Paperspace/gradient-sdk
+      logo: paperspace.svg
+      twitter: https://twitter.com/hellopaperspace
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: Hyperopt, Jupyter Notebooks
+      allow_duplicate_repo: true
+    - item:
+      organization: One Convergence
+      name: One Convergence DKube (Experimentation & Parameter Tuning)
+      homepage_url: https://www.oneconvergence.com/dkube/
+      open_source: false
+      repo_url: null
+      logo: one-convergence.svg
+      twitter: https://twitter.com/oneconvergence
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: Kubeflow-Kaitib, Kubeflow Pipelines
+    - item:
+      organization: Pipeline.ai
+      name: Pipeline.ai (Experimentation & Parameter Tuning)
+      homepage_url: https://pipeline.ai/
+      open_source: false
+      repo_url: https://github.com/PipelineAI/pipeline
+      logo: pipelineai.svg
+      twitter: https://twitter.com/PipelineAI
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: Kubeflow-Kaitib, MLFlow, Kubeflow-Tensorflow Serving, Kubeflow-PyTorch
+        Serving, Kubeflow-NVIDIA TensorRT Inference Server, Kubeflow-TensorFlow Batch
+        Predict, Kubeflow-Seldon, Seldon-core, Kubeflow-Jupyter Notebooks, Kubeflow-TensorFlow
+        Training (TF Job), Kubeflow Pipelines
+      allow_duplicate_repo: true
+    - item:
+      organization: Iguazio
+      name: Iguazio Data Science Platform (Experimentation & Parameter Tuning)
+      homepage_url: https://www.iguazio.com/
+      open_source: false
+      repo_url: null
+      logo: iguazio.svg
+      twitter: https://twitter.com/iguazio
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: Kubeflow-Kaitib, Kubeflow-Tensorflow Serving, Kubeflow-PyTorch Serving,
+        Kubeflow-NVIDIA TensorRT Inference Server, Kubeflow-TensorFlow Batch Predict,
+        Kubeflow-Seldon, Kubeflow-TensorFlow Training (TF Job), Kubeflow Pipelines
+    - item:
+      organization: Cluster One
+      name: Cluster One Enterprise (Experimentation & Parameter Tuning)
+      homepage_url: https://clusterone.com/enterprise
+      open_source: false
+      repo_url: null
+      logo: clusterone.svg
+      twitter: https://twitter.com/clusterone_
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: Jupyter Notebooks
+    - item:
+      organization: C3.ai
+      name: C3.ai C3 AI Suite (Experimentation & Parameter Tuning)
+      homepage_url: https://c3.ai/c3-ai-suite/
+      open_source: false
+      repo_url: null
+      logo: c3-ai.svg
+      twitter: https://twitter.com/C3_AI
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: Jupyter Notebooks, Apache Spark
+    - item:
+      organization: Determined AI
+      name: Determined AI (Experimentation & Parameter Tuning)
+      homepage_url: https://determined.ai/
+      open_source: false
+      repo_url: null
+      logo: determined-ai.svg
+      twitter: https://twitter.com/DeterminedAI
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Dataiku
+      name: Dataiku DSS (Experimentation & Parameter Tuning)
+      homepage_url: https://www.dataiku.com/dss/
+      open_source: false
+      repo_url: null
+      logo: dataiku.svg
+      twitter: https://twitter.com/dataiku
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: cnvrg.io
+      name: cnvrg.io (Experimentation & Parameter Tuning)
+      homepage_url: https://cnvrg.io/
+      open_source: false
+      repo_url: null
+      logo: cnvrg.svg
+      twitter: https://twitter.com/cnvrg_io
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Kubeflow
+      name: Kubeflow (Experimentation & Parameter Tuning)
+      homepage_url: https://www.kubeflow.org/
+      open_source: true
+      repo_url: https://github.com/kubeflow/kubeflow
+      logo: kubeflow.svg
+      twitter: https://twitter.com/kubeflow
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: Kubeflow-Kaitib, MLFlow, Kubeflow-Tensorflow Serving, Kubeflow-PyTorch
+        Serving, Kubeflow-NVIDIA TensorRT Inference Server, Kubeflow-TensorFlow Batch
+        Predict, Kubeflow-Seldon, Seldon-core, Kubeflow-Jupyter Notebooks, Kubeflow-TensorFlow
+        Training (TF Job), Kubeflow Pipelines
+      status:
+      - odh
+      allow_duplicate_repo: true
   - subcategory:
     name: Model Serving
-    items: []
+    items:
+    - item:
+      organization: NVIDIA
+      name: NVIDIA TensorRT Inference Server (Model Serving)
+      homepage_url: https://developer.nvidia.com/tensorrt
+      open_source: true
+      repo_url: https://github.com/NVIDIA/tensorrt-inference-server
+      logo: nvidia.svg
+      twitter: https://twitter.com/nvidiaai
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+      allow_duplicate_repo: true
+    - item:
+      organization: IBM
+      name: IBM Watson Machine Learning (Model Serving)
+      homepage_url: https://www.ibm.com/cloud/machine-learning
+      open_source: false
+      repo_url: null
+      logo: ibm.svg
+      twitter: https://twitter.com/IBMcloud
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Anaconda
+      name: Anaconda Enterprise (Model Serving)
+      homepage_url: https://www.anaconda.com/enterprise/
+      open_source: false
+      repo_url: null
+      logo: anaconda.svg
+      twitter: https://twitter.com/anacondainc
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Seldon
+      name: Seldon core (Model Serving)
+      homepage_url: https://www.seldon.io/tech/products/core/
+      open_source: true
+      repo_url: https://github.com/SeldonIO/seldon-core
+      logo: seldon-black.svg
+      twitter: https://twitter.com/seldon_io
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+      status:
+      - odh
+      - community
+      - certified
+      - ubi
+      allow_duplicate_repo: true
+    - item:
+      organization: H20.ai
+      name: H20.ai H2O (Model Serving)
+      homepage_url: https://www.h2o.ai/
+      open_source: false
+      repo_url: null
+      logo: h2o.svg
+      twitter: https://twitter.com/h2oai
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: H20.ai
+      name: H20.ai Driverless AI (Model Serving)
+      homepage_url: https://www.h2o.ai/products/h2o-driverless-ai/
+      open_source: false
+      repo_url: null
+      logo: h2o.svg
+      twitter: https://twitter.com/h2oai
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+      status:
+      - community
+      - certified
+      - ubi
+    - item:
+      organization: SAS
+      name: SAS Viya (Model Serving)
+      homepage_url: https://www.sas.com/en_us/software/viya.html
+      open_source: false
+      repo_url: null
+      logo: sas-viya.svg
+      twitter: https://twitter.com/SASsoftware
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Domino Data Lab
+      name: Domino Data Lab Domino Data Science Platform (Model Serving)
+      homepage_url: https://www.dominodatalab.com/
+      open_source: false
+      repo_url: null
+      logo: domino.svg
+      twitter: https://twitter.com/dominodatalab
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Skymind
+      name: Skymind (Model Serving)
+      homepage_url: https://skymind.ai/
+      open_source: false
+      repo_url: https://github.com/eclipse/deeplearning4j
+      logo: skymind.svg
+      twitter: https://twitter.com/skymindio
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+      allow_duplicate_repo: true
+    - item:
+      organization: Dotscience
+      name: Dotscience (Model Serving)
+      homepage_url: https://dotscience.com/
+      open_source: false
+      repo_url: null
+      logo: dotscience.svg
+      twitter: https://twitter.com/getdotscience
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: JupyterLab
+    - item:
+      organization: DataRobot
+      name: DataRobot (Model Serving)
+      homepage_url: https://www.datarobot.com/
+      open_source: false
+      repo_url: null
+      logo: datarobot.svg
+      twitter: https://twitter.com/DataRobot
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Paperspace
+      name: Paperspace Gradient (Model Serving)
+      homepage_url: https://gradient.paperspace.com/
+      open_source: false
+      repo_url: https://github.com/Paperspace/gradient-sdk
+      logo: paperspace.svg
+      twitter: https://twitter.com/hellopaperspace
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: Hyperopt, Jupyter Notebooks
+      allow_duplicate_repo: true
+    - item:
+      organization: UIPath
+      name: UIPath RPA Platform (Model Serving)
+      homepage_url: missing-homepage
+      open_source: false
+      repo_url: null
+      logo: no-image.svg
+      twitter: null
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: RapidMiner
+      name: RapidMiner (Model Serving)
+      homepage_url: https://rapidminer.com/
+      open_source: false
+      repo_url: null
+      logo: rapidminer.svg
+      twitter: https://twitter.com/rapidminer
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Pipeline.ai
+      name: Pipeline.ai (Model Serving)
+      homepage_url: https://pipeline.ai/
+      open_source: false
+      repo_url: https://github.com/PipelineAI/pipeline
+      logo: pipelineai.svg
+      twitter: https://twitter.com/PipelineAI
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: Kubeflow-Kaitib, MLFlow, Kubeflow-Tensorflow Serving, Kubeflow-PyTorch
+        Serving, Kubeflow-NVIDIA TensorRT Inference Server, Kubeflow-TensorFlow Batch
+        Predict, Kubeflow-Seldon, Seldon-core, Kubeflow-Jupyter Notebooks, Kubeflow-TensorFlow
+        Training (TF Job), Kubeflow Pipelines
+      allow_duplicate_repo: true
+    - item:
+      organization: R-Brain
+      name: R-Brain (Model Serving)
+      homepage_url: https://r-brain.io/
+      open_source: false
+      repo_url: null
+      logo: r-brain.svg
+      twitter: https://twitter.com/rbraininc
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: JupyterLab, Apache Zeppelin
+    - item:
+      organization: Iguazio
+      name: Iguazio Data Science Platform (Model Serving)
+      homepage_url: https://www.iguazio.com/
+      open_source: false
+      repo_url: null
+      logo: iguazio.svg
+      twitter: https://twitter.com/iguazio
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: Kubeflow-Kaitib, Kubeflow-Tensorflow Serving, Kubeflow-PyTorch Serving,
+        Kubeflow-NVIDIA TensorRT Inference Server, Kubeflow-TensorFlow Batch Predict,
+        Kubeflow-Seldon, Kubeflow-TensorFlow Training (TF Job), Kubeflow Pipelines
+    - item:
+      organization: Agile Stacks
+      name: Agile Stacks (Model Serving)
+      homepage_url: https://www.agilestacks.com/
+      open_source: true
+      repo_url: null
+      logo: agile-stacks.svg
+      twitter: https://twitter.com/agilestacks
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: Kubeflow-Kaitib, Kubeflow-Tensorflow Serving, Kubeflow-PyTorch Serving,
+        Kubeflow-NVIDIA TensorRT Inference Server, Kubeflow-TensorFlow Batch Predict,
+        Kubeflow-Seldon, Seldon-core, Tensorflow Serving, Kubeflow-Jupyter Notebooks,
+        JupyterHub, Argo, Prometheus, Grafana
+    - item:
+      organization: Cluster One
+      name: Cluster One Enterprise (Model Serving)
+      homepage_url: https://clusterone.com/enterprise
+      open_source: false
+      repo_url: null
+      logo: clusterone.svg
+      twitter: https://twitter.com/clusterone_
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: Jupyter Notebooks
+    - item:
+      organization: C3.ai
+      name: C3.ai C3 AI Suite (Model Serving)
+      homepage_url: https://c3.ai/c3-ai-suite/
+      open_source: false
+      repo_url: null
+      logo: c3-ai.svg
+      twitter: https://twitter.com/C3_AI
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: Jupyter Notebooks, Apache Spark
+    - item:
+      organization: SAP
+      name: SAP Hana (Model Serving)
+      homepage_url: https://www.sap.com/products/hana.html
+      open_source: false
+      repo_url: null
+      logo: sap.svg
+      twitter: https://twitter.com/sap
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Determined AI
+      name: Determined AI (Model Serving)
+      homepage_url: https://determined.ai/
+      open_source: false
+      repo_url: null
+      logo: determined-ai.svg
+      twitter: https://twitter.com/DeterminedAI
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Verta.ai
+      name: Verta.ai (Model Serving)
+      homepage_url: https://www.verta.ai/
+      open_source: false
+      repo_url: null
+      logo: verta-ai.svg
+      twitter: https://twitter.com/VertaAI
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Dataiku
+      name: Dataiku DSS (Model Serving)
+      homepage_url: https://www.dataiku.com/dss/
+      open_source: false
+      repo_url: null
+      logo: dataiku.svg
+      twitter: https://twitter.com/dataiku
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: cnvrg.io
+      name: cnvrg.io (Model Serving)
+      homepage_url: https://cnvrg.io/
+      open_source: false
+      repo_url: null
+      logo: cnvrg.svg
+      twitter: https://twitter.com/cnvrg_io
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Alteryx
+      name: Alteryx Promote (Model Serving)
+      homepage_url: https://www.alteryx.com/products/alteryx-platform/alteryx-promote
+      open_source: false
+      repo_url: null
+      logo: alteryx.svg
+      twitter: https://twitter.com/alteryx
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: TIBCO
+      name: TIBCO Data Science (Model Serving)
+      homepage_url: https://www.tibco.com/products/data-science
+      open_source: false
+      repo_url: null
+      logo: tibco.svg
+      twitter: https://twitter.com/tibco
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Open Data Hub
+      name: Open Data Hub (Model Serving)
+      homepage_url: https://www.opendatahub.io
+      open_source: true
+      repo_url: null
+      logo: opendatahub.svg
+      twitter: https://twitter.com/opendatahubio
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: JupyterHub, Seldon-core, Argo, Ceph, Rook, Strimzi, Kafka, Kafka
+        Streams, KSQL, Kafka Connect, Prometheus, Grafana, Apache Spark, Hue, Hive
+        Metastore, Spark Thrift Server, Apache Superset, AI Library, BeakerX
+      status:
+      - odh
+      - community
+    - item:
+      organization: Kubeflow
+      name: Kubeflow (Model Serving)
+      homepage_url: https://www.kubeflow.org/
+      open_source: true
+      repo_url: https://github.com/kubeflow/kubeflow
+      logo: kubeflow.svg
+      twitter: https://twitter.com/kubeflow
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: Kubeflow-Kaitib, MLFlow, Kubeflow-Tensorflow Serving, Kubeflow-PyTorch
+        Serving, Kubeflow-NVIDIA TensorRT Inference Server, Kubeflow-TensorFlow Batch
+        Predict, Kubeflow-Seldon, Seldon-core, Kubeflow-Jupyter Notebooks, Kubeflow-TensorFlow
+        Training (TF Job), Kubeflow Pipelines
+      status:
+      - odh
+      allow_duplicate_repo: true
   - subcategory:
     name: Lineage
-    items: []
+    items:
+    - item:
+      organization: Anaconda
+      name: Anaconda Enterprise (Lineage)
+      homepage_url: https://www.anaconda.com/enterprise/
+      open_source: false
+      repo_url: null
+      logo: anaconda.svg
+      twitter: https://twitter.com/anacondainc
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: UBix Labs
+      name: UBix Labs UBIX (Lineage)
+      homepage_url: https://ubixlabs.com/
+      open_source: false
+      repo_url: null
+      logo: ubix.svg
+      twitter: null
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Swiss Data Science Center
+      name: Swiss Data Science Center RENKU (Lineage)
+      homepage_url: https://datascience.ch/renku/
+      open_source: true
+      repo_url: https://github.com/SwissDataScienceCenter/renku
+      logo: sdsc.svg
+      twitter: https://twitter.com/SDSCdatascience
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: JupyterLab
+      status:
+      - community
+      allow_duplicate_repo: true
+    - item:
+      organization: Dotscience
+      name: Dotscience (Lineage)
+      homepage_url: https://dotscience.com/
+      open_source: false
+      repo_url: null
+      logo: dotscience.svg
+      twitter: https://twitter.com/getdotscience
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: JupyterLab
+    - item:
+      organization: RapidMiner
+      name: RapidMiner (Lineage)
+      homepage_url: https://rapidminer.com/
+      open_source: false
+      repo_url: null
+      logo: rapidminer.svg
+      twitter: https://twitter.com/rapidminer
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: C3.ai
+      name: C3.ai C3 AI Suite (Lineage)
+      homepage_url: https://c3.ai/c3-ai-suite/
+      open_source: false
+      repo_url: null
+      logo: c3-ai.svg
+      twitter: https://twitter.com/C3_AI
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: Jupyter Notebooks, Apache Spark
+    - item:
+      organization: Verta.ai
+      name: Verta.ai (Lineage)
+      homepage_url: https://www.verta.ai/
+      open_source: false
+      repo_url: null
+      logo: verta-ai.svg
+      twitter: https://twitter.com/VertaAI
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
   - subcategory:
     name: Interactive Workbench
-    items: []
+    items:
+    - item:
+      organization: NVIDIA
+      name: NVIDIA DIGITS (Interactive Workbench)
+      homepage_url: https://developer.nvidia.com/digits
+      open_source: true
+      repo_url: https://github.com/NVIDIA/DIGITS
+      logo: nvidia.svg
+      twitter: https://twitter.com/NVIDIAHPCDev
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+      allow_duplicate_repo: true
+    - item:
+      organization: IBM
+      name: IBM Watson Studio (Interactive Workbench)
+      homepage_url: https://www.ibm.com/cloud/watson-studio
+      open_source: false
+      repo_url: null
+      logo: ibm.svg
+      twitter: https://twitter.com/IBMcloud
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: CognitiveScale
+      name: CognitiveScale Studio (Interactive Workbench)
+      homepage_url: https://www.cognitivescale.com/
+      open_source: false
+      repo_url: null
+      logo: cognitivescale.svg
+      twitter: https://twitter.com/cognitivescale
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: H20.ai
+      name: H20.ai H2O (Interactive Workbench)
+      homepage_url: https://www.h2o.ai/
+      open_source: false
+      repo_url: null
+      logo: h2o.svg
+      twitter: https://twitter.com/h2oai
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: H20.ai
+      name: H20.ai Driverless AI (Interactive Workbench)
+      homepage_url: https://www.h2o.ai/products/h2o-driverless-ai/
+      open_source: false
+      repo_url: null
+      logo: h2o.svg
+      twitter: https://twitter.com/h2oai
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+      status:
+      - community
+      - certified
+      - ubi
+    - item:
+      organization: Cloudera
+      name: Cloudera Data Science Workbench (Interactive Workbench)
+      homepage_url: https://www.cloudera.com/products/cloudera-data-platform.html
+      open_source: false
+      repo_url: null
+      logo: cloudera.svg
+      twitter: https://twitter.com/cloudera
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: Nifi
+    - item:
+      organization: SAS
+      name: SAS Viya (Interactive Workbench)
+      homepage_url: https://www.sas.com/en_us/software/viya.html
+      open_source: false
+      repo_url: null
+      logo: sas-viya.svg
+      twitter: https://twitter.com/SASsoftware
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Databricks
+      name: Databricks Unified Analytics Platform (Interactive Workbench)
+      homepage_url: https://databricks.com/product/unified-analytics-platform
+      open_source: false
+      repo_url: null
+      logo: databricks.svg
+      twitter: https://twitter.com/databricks
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Domino Data Lab
+      name: Domino Data Lab Domino Data Science Platform (Interactive Workbench)
+      homepage_url: https://www.dominodatalab.com/
+      open_source: false
+      repo_url: null
+      logo: domino.svg
+      twitter: https://twitter.com/dominodatalab
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: UBix Labs
+      name: UBix Labs UBIX (Interactive Workbench)
+      homepage_url: https://ubixlabs.com/
+      open_source: false
+      repo_url: null
+      logo: ubix.svg
+      twitter: null
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Swiss Data Science Center
+      name: Swiss Data Science Center RENKU (Interactive Workbench)
+      homepage_url: https://datascience.ch/renku/
+      open_source: true
+      repo_url: https://github.com/SwissDataScienceCenter/renku
+      logo: sdsc.svg
+      twitter: https://twitter.com/SDSCdatascience
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: JupyterLab
+      status:
+      - community
+      allow_duplicate_repo: true
+    - item:
+      organization: Dotscience
+      name: Dotscience (Interactive Workbench)
+      homepage_url: https://dotscience.com/
+      open_source: false
+      repo_url: null
+      logo: dotscience.svg
+      twitter: https://twitter.com/getdotscience
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: JupyterLab
+    - item:
+      organization: Feedzai
+      name: Feedzai Agile Machine Learning (Interactive Workbench)
+      homepage_url: https://feedzai.com/
+      open_source: false
+      repo_url: null
+      logo: feedzai.svg
+      twitter: https://twitter.com/feedzai
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: Apache Spark
+    - item:
+      organization: Paperspace
+      name: Paperspace Gradient (Interactive Workbench)
+      homepage_url: https://gradient.paperspace.com/
+      open_source: false
+      repo_url: https://github.com/Paperspace/gradient-sdk
+      logo: paperspace.svg
+      twitter: https://twitter.com/hellopaperspace
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: Hyperopt, Jupyter Notebooks
+      allow_duplicate_repo: true
+    - item:
+      organization: RapidMiner
+      name: RapidMiner (Interactive Workbench)
+      homepage_url: https://rapidminer.com/
+      open_source: false
+      repo_url: null
+      logo: rapidminer.svg
+      twitter: https://twitter.com/rapidminer
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Pipeline.ai
+      name: Pipeline.ai (Interactive Workbench)
+      homepage_url: https://pipeline.ai/
+      open_source: false
+      repo_url: https://github.com/PipelineAI/pipeline
+      logo: pipelineai.svg
+      twitter: https://twitter.com/PipelineAI
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: Kubeflow-Kaitib, MLFlow, Kubeflow-Tensorflow Serving, Kubeflow-PyTorch
+        Serving, Kubeflow-NVIDIA TensorRT Inference Server, Kubeflow-TensorFlow Batch
+        Predict, Kubeflow-Seldon, Seldon-core, Kubeflow-Jupyter Notebooks, Kubeflow-TensorFlow
+        Training (TF Job), Kubeflow Pipelines
+      allow_duplicate_repo: true
+    - item:
+      organization: R-Brain
+      name: R-Brain (Interactive Workbench)
+      homepage_url: https://r-brain.io/
+      open_source: false
+      repo_url: null
+      logo: r-brain.svg
+      twitter: https://twitter.com/rbraininc
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: JupyterLab, Apache Zeppelin
+    - item:
+      organization: Iguazio
+      name: Iguazio Data Science Platform (Interactive Workbench)
+      homepage_url: https://www.iguazio.com/
+      open_source: false
+      repo_url: null
+      logo: iguazio.svg
+      twitter: https://twitter.com/iguazio
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: Kubeflow-Kaitib, Kubeflow-Tensorflow Serving, Kubeflow-PyTorch Serving,
+        Kubeflow-NVIDIA TensorRT Inference Server, Kubeflow-TensorFlow Batch Predict,
+        Kubeflow-Seldon, Kubeflow-TensorFlow Training (TF Job), Kubeflow Pipelines
+    - item:
+      organization: Agile Stacks
+      name: Agile Stacks (Interactive Workbench)
+      homepage_url: https://www.agilestacks.com/
+      open_source: true
+      repo_url: null
+      logo: agile-stacks.svg
+      twitter: https://twitter.com/agilestacks
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: Kubeflow-Kaitib, Kubeflow-Tensorflow Serving, Kubeflow-PyTorch Serving,
+        Kubeflow-NVIDIA TensorRT Inference Server, Kubeflow-TensorFlow Batch Predict,
+        Kubeflow-Seldon, Seldon-core, Tensorflow Serving, Kubeflow-Jupyter Notebooks,
+        JupyterHub, Argo, Prometheus, Grafana
+    - item:
+      organization: Cluster One
+      name: Cluster One Enterprise (Interactive Workbench)
+      homepage_url: https://clusterone.com/enterprise
+      open_source: false
+      repo_url: null
+      logo: clusterone.svg
+      twitter: https://twitter.com/clusterone_
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: Jupyter Notebooks
+    - item:
+      organization: C3.ai
+      name: C3.ai C3 AI Suite (Interactive Workbench)
+      homepage_url: https://c3.ai/c3-ai-suite/
+      open_source: false
+      repo_url: null
+      logo: c3-ai.svg
+      twitter: https://twitter.com/C3_AI
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: Jupyter Notebooks, Apache Spark
+    - item:
+      organization: SAP
+      name: SAP Hana (Interactive Workbench)
+      homepage_url: https://www.sap.com/products/hana.html
+      open_source: false
+      repo_url: null
+      logo: sap.svg
+      twitter: https://twitter.com/sap
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Dataiku
+      name: Dataiku DSS (Interactive Workbench)
+      homepage_url: https://www.dataiku.com/dss/
+      open_source: false
+      repo_url: null
+      logo: dataiku.svg
+      twitter: https://twitter.com/dataiku
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: BCG
+      name: BCG Source.ai (Interactive Workbench)
+      homepage_url: https://source.ai/
+      open_source: false
+      repo_url: null
+      logo: source-ai.svg
+      twitter: https://twitter.com/BCG
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Zepl
+      name: Zepl (Interactive Workbench)
+      homepage_url: https://www.zepl.com/
+      open_source: true
+      repo_url: null
+      logo: zepl.svg
+      twitter: https://twitter.com/zeplco
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: Apache Zeppelin
+    - item:
+      organization: TIBCO
+      name: TIBCO Streaming (Interactive Workbench)
+      homepage_url: https://www.tibco.com/products/data-science-streaming
+      open_source: false
+      repo_url: null
+      logo: tibco.svg
+      twitter: https://twitter.com/tibco
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Open Data Hub
+      name: Open Data Hub (Interactive Workbench)
+      homepage_url: https://www.opendatahub.io
+      open_source: true
+      repo_url: null
+      logo: opendatahub.svg
+      twitter: https://twitter.com/opendatahubio
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: JupyterHub, Seldon-core, Argo, Ceph, Rook, Strimzi, Kafka, Kafka
+        Streams, KSQL, Kafka Connect, Prometheus, Grafana, Apache Spark, Hue, Hive
+        Metastore, Spark Thrift Server, Apache Superset, AI Library, BeakerX
+      status:
+      - odh
+      - community
+    - item:
+      organization: Kubeflow
+      name: Kubeflow (Interactive Workbench)
+      homepage_url: https://www.kubeflow.org/
+      open_source: true
+      repo_url: https://github.com/kubeflow/kubeflow
+      logo: kubeflow.svg
+      twitter: https://twitter.com/kubeflow
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: Kubeflow-Kaitib, MLFlow, Kubeflow-Tensorflow Serving, Kubeflow-PyTorch
+        Serving, Kubeflow-NVIDIA TensorRT Inference Server, Kubeflow-TensorFlow Batch
+        Predict, Kubeflow-Seldon, Seldon-core, Kubeflow-Jupyter Notebooks, Kubeflow-TensorFlow
+        Training (TF Job), Kubeflow Pipelines
+      status:
+      - odh
+      allow_duplicate_repo: true
   - subcategory:
     name: Pre-defined Models as a Service
-    items: []
+    items:
+    - item:
+      organization: NVIDIA
+      name: NVIDIA DIGITS (Pre-defined Models as a Service)
+      homepage_url: https://developer.nvidia.com/digits
+      open_source: true
+      repo_url: https://github.com/NVIDIA/DIGITS
+      logo: nvidia.svg
+      twitter: https://twitter.com/NVIDIAHPCDev
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+      allow_duplicate_repo: true
+    - item:
+      organization: IBM
+      name: IBM Watson Studio (Pre-defined Models as a Service)
+      homepage_url: https://www.ibm.com/cloud/watson-studio
+      open_source: false
+      repo_url: null
+      logo: ibm.svg
+      twitter: https://twitter.com/IBMcloud
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: IBM
+      name: IBM Cloud Pak for Data (Pre-defined Models as a Service)
+      homepage_url: https://www.ibm.com/products/cloud-pak-for-data
+      open_source: false
+      repo_url: null
+      logo: ibm.svg
+      twitter: https://twitter.com/IBMcloud
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: IBM
+      name: IBM Watson Assistant (Pre-defined Models as a Service)
+      homepage_url: https://www.ibm.com/cloud/watson-assistant/
+      open_source: false
+      repo_url: null
+      logo: ibm.svg
+      twitter: https://twitter.com/IBMcloud
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: CognitiveScale
+      name: CognitiveScale Engage AI (Pre-defined Models as a Service)
+      homepage_url: https://www.cognitivescale.com/engage-ai-accelerators/
+      open_source: false
+      repo_url: null
+      logo: cognitivescale.svg
+      twitter: https://twitter.com/cognitivescale
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: CognitiveScale
+      name: CognitiveScale Amplify AI (Pre-defined Models as a Service)
+      homepage_url: https://www.cognitivescale.com/amplify-ai-accelerators/
+      open_source: false
+      repo_url: null
+      logo: cognitivescale.svg
+      twitter: https://twitter.com/cognitivescale
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Sisense
+      name: Sisense (Pre-defined Models as a Service)
+      homepage_url: https://www.sisense.com
+      open_source: false
+      repo_url: null
+      logo: sisense.svg
+      twitter: https://twitter.com/sisense
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Perceptilabs
+      name: Perceptilabs Modeling and Visualization Tool (Pre-defined Models as a
+        Service)
+      homepage_url: https://www.perceptilabs.com/
+      open_source: false
+      repo_url: null
+      logo: perceptilabs.svg
+      twitter: https://twitter.com/perceptilabs
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+      status:
+      - community
+      - certified
+      - ubi
+    - item:
+      organization: DataRobot
+      name: DataRobot (Pre-defined Models as a Service)
+      homepage_url: https://www.datarobot.com/
+      open_source: false
+      repo_url: null
+      logo: datarobot.svg
+      twitter: https://twitter.com/DataRobot
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: LucidWorks
+      name: LucidWorks Fusion AI (Pre-defined Models as a Service)
+      homepage_url: missing-homepage
+      open_source: false
+      repo_url: null
+      logo: no-image.svg
+      twitter: null
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: UIPath
+      name: UIPath RPA Platform (Pre-defined Models as a Service)
+      homepage_url: missing-homepage
+      open_source: false
+      repo_url: null
+      logo: no-image.svg
+      twitter: null
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Labs.ai
+      name: Labs.ai EDDI (Pre-defined Models as a Service)
+      homepage_url: https://eddi.labs.ai/
+      open_source: true
+      repo_url: https://github.com/labsai/EDDI
+      logo: labs-ai.svg
+      twitter: https://twitter.com/eddi_labs
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+      allow_duplicate_repo: true
+    - item:
+      organization: TIBCO
+      name: TIBCO Spotfire (Pre-defined Models as a Service)
+      homepage_url: https://www.tibco.com/products/tibco-spotfire
+      open_source: false
+      repo_url: null
+      logo: tibco.svg
+      twitter: https://twitter.com/tibco
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Open Data Hub
+      name: Open Data Hub (Pre-defined Models as a Service)
+      homepage_url: https://www.opendatahub.io
+      open_source: true
+      repo_url: null
+      logo: opendatahub.svg
+      twitter: https://twitter.com/opendatahubio
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: JupyterHub, Seldon-core, Argo, Ceph, Rook, Strimzi, Kafka, Kafka
+        Streams, KSQL, Kafka Connect, Prometheus, Grafana, Apache Spark, Hue, Hive
+        Metastore, Spark Thrift Server, Apache Superset, AI Library, BeakerX
+      status:
+      - odh
+      - community
   - subcategory:
     name: AI/ML Modules and Extensions
-    items: []
+    items:
+    - item:
+      organization: NVIDIA
+      name: NVIDIA RAPIDS (AI/ML Modules and Extensions)
+      homepage_url: https://rapids.ai/
+      open_source: true
+      repo_url: https://github.com/rapidsai/cuml
+      logo: nvidia.svg
+      twitter: https://twitter.com/rapidsai
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+      allow_duplicate_repo: true
+    - item:
+      organization: Two Sigma
+      name: Two Sigma BeakerX (AI/ML Modules and Extensions)
+      homepage_url: http://beakerx.com/
+      open_source: true
+      repo_url: https://github.com/twosigma/beakerx
+      logo: beakerx.svg
+      twitter: https://twitter.com/BeakerXNotebook
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+      status:
+      - odh
+      allow_duplicate_repo: true
+    - item:
+      organization: Open Data Hub
+      name: Open Data Hub (AI/ML Modules and Extensions)
+      homepage_url: https://www.opendatahub.io
+      open_source: true
+      repo_url: null
+      logo: opendatahub.svg
+      twitter: https://twitter.com/opendatahubio
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: JupyterHub, Seldon-core, Argo, Ceph, Rook, Strimzi, Kafka, Kafka
+        Streams, KSQL, Kafka Connect, Prometheus, Grafana, Apache Spark, Hue, Hive
+        Metastore, Spark Thrift Server, Apache Superset, AI Library, BeakerX
+      status:
+      - odh
+      - community
 - category:
   name: Data Analysis
   subcategories:
   - subcategory:
     name: Business Intelligence
-    items: []
+    items:
+    - item:
+      organization: IBM
+      name: IBM Cognos Analytics (Business Intelligence)
+      homepage_url: https://www.ibm.com/products/cognos-analytics
+      open_source: false
+      repo_url: null
+      logo: ibm.svg
+      twitter: https://twitter.com/IBMcloud
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: IBM
+      name: IBM Streams (Business Intelligence)
+      homepage_url: https://www.ibm.com/cloud/streaming-analytics
+      open_source: false
+      repo_url: null
+      logo: ibm.svg
+      twitter: https://twitter.com/IBMcloud
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Qlik
+      name: Qlik (Business Intelligence)
+      homepage_url: https://qlik.com/
+      open_source: false
+      repo_url: null
+      logo: qlik.svg
+      twitter: https://twitter.com/qlik
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: SAS
+      name: SAS Viya (Business Intelligence)
+      homepage_url: https://www.sas.com/en_us/software/viya.html
+      open_source: false
+      repo_url: null
+      logo: sas-viya.svg
+      twitter: https://twitter.com/SASsoftware
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Tableau
+      name: Tableau (Business Intelligence)
+      homepage_url: https://www.tableau.com/
+      open_source: false
+      repo_url: null
+      logo: tableau.svg
+      twitter: https://twitter.com/tableau
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Sisense
+      name: Sisense (Business Intelligence)
+      homepage_url: https://www.sisense.com
+      open_source: false
+      repo_url: null
+      logo: sisense.svg
+      twitter: https://twitter.com/sisense
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Microstrategy
+      name: Microstrategy (Business Intelligence)
+      homepage_url: https://www.microstrategy.com
+      open_source: false
+      repo_url: null
+      logo: microstrategy.svg
+      twitter: https://twitter.com/microstrategy
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: C3.ai
+      name: C3.ai C3 AI Suite (Business Intelligence)
+      homepage_url: https://c3.ai/c3-ai-suite/
+      open_source: false
+      repo_url: null
+      logo: c3-ai.svg
+      twitter: https://twitter.com/C3_AI
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: Jupyter Notebooks, Apache Spark
+    - item:
+      organization: C3.ai
+      name: C3.ai C3 Ex Machina (Business Intelligence)
+      homepage_url: https://c3.ai/products/ex-machina/
+      open_source: false
+      repo_url: null
+      logo: c3-ai.svg
+      twitter: https://twitter.com/C3_AI
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: SAP
+      name: SAP Hana (Business Intelligence)
+      homepage_url: https://www.sap.com/products/hana.html
+      open_source: false
+      repo_url: null
+      logo: sap.svg
+      twitter: https://twitter.com/sap
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Thoughtspot
+      name: Thoughtspot (Business Intelligence)
+      homepage_url: https://www.thoughtspot.com/
+      open_source: false
+      repo_url: null
+      logo: thoughtspot.svg
+      twitter: https://twitter.com/thoughtspot
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Dataiku
+      name: Dataiku DSS (Business Intelligence)
+      homepage_url: https://www.dataiku.com/dss/
+      open_source: false
+      repo_url: null
+      logo: dataiku.svg
+      twitter: https://twitter.com/dataiku
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: TIBCO
+      name: TIBCO Spotfire (Business Intelligence)
+      homepage_url: https://www.tibco.com/products/tibco-spotfire
+      open_source: false
+      repo_url: null
+      logo: tibco.svg
+      twitter: https://twitter.com/tibco
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: TIBCO
+      name: TIBCO Jaspersoft (Business Intelligence)
+      homepage_url: https://www.jaspersoft.com/
+      open_source: false
+      repo_url: null
+      logo: tibco.svg
+      twitter: https://twitter.com/tibco
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Open Data Hub
+      name: Open Data Hub (Business Intelligence)
+      homepage_url: https://www.opendatahub.io
+      open_source: true
+      repo_url: null
+      logo: opendatahub.svg
+      twitter: https://twitter.com/opendatahubio
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: JupyterHub, Seldon-core, Argo, Ceph, Rook, Strimzi, Kafka, Kafka
+        Streams, KSQL, Kafka Connect, Prometheus, Grafana, Apache Spark, Hue, Hive
+        Metastore, Spark Thrift Server, Apache Superset, AI Library, BeakerX
+      status:
+      - odh
+      - community
   - subcategory:
     name: Dashboards and Charts
-    items: []
+    items:
+    - item:
+      organization: IBM
+      name: IBM Cognos Analytics (Dashboards and Charts)
+      homepage_url: https://www.ibm.com/products/cognos-analytics
+      open_source: false
+      repo_url: null
+      logo: ibm.svg
+      twitter: https://twitter.com/IBMcloud
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: H20.ai
+      name: H20.ai Driverless AI (Dashboards and Charts)
+      homepage_url: https://www.h2o.ai/products/h2o-driverless-ai/
+      open_source: false
+      repo_url: null
+      logo: h2o.svg
+      twitter: https://twitter.com/h2oai
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+      status:
+      - community
+      - certified
+      - ubi
+    - item:
+      organization: Qlik
+      name: Qlik (Dashboards and Charts)
+      homepage_url: https://qlik.com/
+      open_source: false
+      repo_url: null
+      logo: qlik.svg
+      twitter: https://twitter.com/qlik
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Cloudera
+      name: Cloudera Hue (Dashboards and Charts)
+      homepage_url: https://www.cloudera.com/documentation/enterprise/latest/topics/hue.html
+      open_source: true
+      repo_url: null
+      logo: cloudera.svg
+      twitter: https://twitter.com/cloudera
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+      status:
+      - odh
+    - item:
+      organization: SAS
+      name: SAS Viya (Dashboards and Charts)
+      homepage_url: https://www.sas.com/en_us/software/viya.html
+      open_source: false
+      repo_url: null
+      logo: sas-viya.svg
+      twitter: https://twitter.com/SASsoftware
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Tableau
+      name: Tableau (Dashboards and Charts)
+      homepage_url: https://www.tableau.com/
+      open_source: false
+      repo_url: null
+      logo: tableau.svg
+      twitter: https://twitter.com/tableau
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Sisense
+      name: Sisense (Dashboards and Charts)
+      homepage_url: https://www.sisense.com
+      open_source: false
+      repo_url: null
+      logo: sisense.svg
+      twitter: https://twitter.com/sisense
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Hitachi
+      name: Hitachi Vantara (Dashboards and Charts)
+      homepage_url: https://www.hitachivantara.com
+      open_source: false
+      repo_url: null
+      logo: hitachi.svg
+      twitter: https://twitter.com/HitachiVantara
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Elastic.co
+      name: Elastic.co Kibana (Dashboards and Charts)
+      homepage_url: https://www.elastic.co/products/kibana
+      open_source: true
+      repo_url: https://github.com/elastic/kibana
+      logo: elastic.svg
+      twitter: https://twitter.com/elastic
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+      allow_duplicate_repo: true
+    - item:
+      organization: KNIME
+      name: KNIME Analytics Platform (Dashboards and Charts)
+      homepage_url: https://www.knime.com
+      open_source: true
+      repo_url: null
+      logo: knime.svg
+      twitter: https://twitter.com/knime
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Microstrategy
+      name: Microstrategy (Dashboards and Charts)
+      homepage_url: https://www.microstrategy.com
+      open_source: false
+      repo_url: null
+      logo: microstrategy.svg
+      twitter: https://twitter.com/microstrategy
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Feedzai
+      name: Feedzai Agile Machine Learning (Dashboards and Charts)
+      homepage_url: https://feedzai.com/
+      open_source: false
+      repo_url: null
+      logo: feedzai.svg
+      twitter: https://twitter.com/feedzai
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: Apache Spark
+    - item:
+      organization: One Convergence
+      name: One Convergence DKube (Dashboards and Charts)
+      homepage_url: https://www.oneconvergence.com/dkube/
+      open_source: false
+      repo_url: null
+      logo: one-convergence.svg
+      twitter: https://twitter.com/oneconvergence
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: Kubeflow-Kaitib, Kubeflow Pipelines
+    - item:
+      organization: OmniSci
+      name: OmniSci Immerse (Dashboards and Charts)
+      homepage_url: https://www.omnisci.com/platform/immerse
+      open_source: false
+      repo_url: null
+      logo: omnisci.svg
+      twitter: https://twitter.com/OmniSci
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: SAP
+      name: SAP Hana (Dashboards and Charts)
+      homepage_url: https://www.sap.com/products/hana.html
+      open_source: false
+      repo_url: null
+      logo: sap.svg
+      twitter: https://twitter.com/sap
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Data.world
+      name: Data.world (Dashboards and Charts)
+      homepage_url: https://data.world/
+      open_source: false
+      repo_url: null
+      logo: data-world.svg
+      twitter: https://twitter.com/datadotworld
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Dataiku
+      name: Dataiku DSS (Dashboards and Charts)
+      homepage_url: https://www.dataiku.com/dss/
+      open_source: false
+      repo_url: null
+      logo: dataiku.svg
+      twitter: https://twitter.com/dataiku
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: BCG
+      name: BCG Source.ai (Dashboards and Charts)
+      homepage_url: https://source.ai/
+      open_source: false
+      repo_url: null
+      logo: source-ai.svg
+      twitter: https://twitter.com/BCG
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: cnvrg.io
+      name: cnvrg.io (Dashboards and Charts)
+      homepage_url: https://cnvrg.io/
+      open_source: false
+      repo_url: null
+      logo: cnvrg.svg
+      twitter: https://twitter.com/cnvrg_io
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Zepl
+      name: Zepl (Dashboards and Charts)
+      homepage_url: https://www.zepl.com/
+      open_source: true
+      repo_url: null
+      logo: zepl.svg
+      twitter: https://twitter.com/zeplco
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: Apache Zeppelin
+    - item:
+      organization: TIBCO
+      name: TIBCO Jaspersoft (Dashboards and Charts)
+      homepage_url: https://www.jaspersoft.com/
+      open_source: false
+      repo_url: null
+      logo: tibco.svg
+      twitter: https://twitter.com/tibco
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Open Data Hub
+      name: Open Data Hub (Dashboards and Charts)
+      homepage_url: https://www.opendatahub.io
+      open_source: true
+      repo_url: null
+      logo: opendatahub.svg
+      twitter: https://twitter.com/opendatahubio
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: JupyterHub, Seldon-core, Argo, Ceph, Rook, Strimzi, Kafka, Kafka
+        Streams, KSQL, Kafka Connect, Prometheus, Grafana, Apache Spark, Hue, Hive
+        Metastore, Spark Thrift Server, Apache Superset, AI Library, BeakerX
+      status:
+      - odh
+      - community
   - subcategory:
     name: Data Exploration
-    items: []
+    items:
+    - item:
+      organization: H20.ai
+      name: H20.ai Driverless AI (Data Exploration)
+      homepage_url: https://www.h2o.ai/products/h2o-driverless-ai/
+      open_source: false
+      repo_url: null
+      logo: h2o.svg
+      twitter: https://twitter.com/h2oai
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+      status:
+      - community
+      - certified
+      - ubi
+    - item:
+      organization: Qlik
+      name: Qlik (Data Exploration)
+      homepage_url: https://qlik.com/
+      open_source: false
+      repo_url: null
+      logo: qlik.svg
+      twitter: https://twitter.com/qlik
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Cloudera
+      name: Cloudera Hue (Data Exploration)
+      homepage_url: https://www.cloudera.com/documentation/enterprise/latest/topics/hue.html
+      open_source: true
+      repo_url: null
+      logo: cloudera.svg
+      twitter: https://twitter.com/cloudera
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+      status:
+      - odh
+    - item:
+      organization: SAS
+      name: SAS Viya (Data Exploration)
+      homepage_url: https://www.sas.com/en_us/software/viya.html
+      open_source: false
+      repo_url: null
+      logo: sas-viya.svg
+      twitter: https://twitter.com/SASsoftware
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Tableau
+      name: Tableau (Data Exploration)
+      homepage_url: https://www.tableau.com/
+      open_source: false
+      repo_url: null
+      logo: tableau.svg
+      twitter: https://twitter.com/tableau
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Hitachi
+      name: Hitachi Vantara (Data Exploration)
+      homepage_url: https://www.hitachivantara.com
+      open_source: false
+      repo_url: null
+      logo: hitachi.svg
+      twitter: https://twitter.com/HitachiVantara
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Datameer
+      name: Datameer (Data Exploration)
+      homepage_url: https://www.datameer.com
+      open_source: false
+      repo_url: null
+      logo: datameer.svg
+      twitter: https://twitter.com/datameer
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Elastic.co
+      name: Elastic.co Kibana (Data Exploration)
+      homepage_url: https://www.elastic.co/products/kibana
+      open_source: true
+      repo_url: https://github.com/elastic/kibana
+      logo: elastic.svg
+      twitter: https://twitter.com/elastic
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+      allow_duplicate_repo: true
+    - item:
+      organization: Skymind
+      name: Skymind (Data Exploration)
+      homepage_url: https://skymind.ai/
+      open_source: false
+      repo_url: https://github.com/eclipse/deeplearning4j
+      logo: skymind.svg
+      twitter: https://twitter.com/skymindio
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+      allow_duplicate_repo: true
+    - item:
+      organization: Feedzai
+      name: Feedzai Agile Machine Learning (Data Exploration)
+      homepage_url: https://feedzai.com/
+      open_source: false
+      repo_url: null
+      logo: feedzai.svg
+      twitter: https://twitter.com/feedzai
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: Apache Spark
+    - item:
+      organization: Pachyderm
+      name: Pachyderm Enterprise (Data Exploration)
+      homepage_url: https://www.pachyderm.io/enterprise.html
+      open_source: false
+      repo_url: null
+      logo: pachyderm.svg
+      twitter: https://twitter.com/pachydermIO
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: RapidMiner
+      name: RapidMiner (Data Exploration)
+      homepage_url: https://rapidminer.com/
+      open_source: false
+      repo_url: null
+      logo: rapidminer.svg
+      twitter: https://twitter.com/rapidminer
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: C3.ai
+      name: C3.ai C3 AI Suite (Data Exploration)
+      homepage_url: https://c3.ai/c3-ai-suite/
+      open_source: false
+      repo_url: null
+      logo: c3-ai.svg
+      twitter: https://twitter.com/C3_AI
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: Jupyter Notebooks, Apache Spark
+    - item:
+      organization: C3.ai
+      name: C3.ai C3 Ex Machina (Data Exploration)
+      homepage_url: https://c3.ai/products/ex-machina/
+      open_source: false
+      repo_url: null
+      logo: c3-ai.svg
+      twitter: https://twitter.com/C3_AI
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: SAP
+      name: SAP Hana (Data Exploration)
+      homepage_url: https://www.sap.com/products/hana.html
+      open_source: false
+      repo_url: null
+      logo: sap.svg
+      twitter: https://twitter.com/sap
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Dataiku
+      name: Dataiku DSS (Data Exploration)
+      homepage_url: https://www.dataiku.com/dss/
+      open_source: false
+      repo_url: null
+      logo: dataiku.svg
+      twitter: https://twitter.com/dataiku
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Open Data Hub
+      name: Open Data Hub (Data Exploration)
+      homepage_url: https://www.opendatahub.io
+      open_source: true
+      repo_url: null
+      logo: opendatahub.svg
+      twitter: https://twitter.com/opendatahubio
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: JupyterHub, Seldon-core, Argo, Ceph, Rook, Strimzi, Kafka, Kafka
+        Streams, KSQL, Kafka Connect, Prometheus, Grafana, Apache Spark, Hue, Hive
+        Metastore, Spark Thrift Server, Apache Superset, AI Library, BeakerX
+      status:
+      - odh
+      - community
 - category:
   name: Data Processing
   subcategories:
   - subcategory:
     name: Message Bus
-    items: []
+    items:
+    - item:
+      organization: Cloudera
+      name: Cloudera DataFlow (Message Bus)
+      homepage_url: https://www.cloudera.com/products/cdf.html
+      open_source: false
+      repo_url: null
+      logo: cloudera.svg
+      twitter: https://twitter.com/cloudera
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: Kafka, Kafka Streams, Nifi
+      status:
+      - community
+      - ubi
+    - item:
+      organization: Cloudera
+      name: Cloudera CDP (Message Bus)
+      homepage_url: https://www.cloudera.com/products/cloudera-data-platform.html
+      open_source: false
+      repo_url: null
+      logo: cloudera.svg
+      twitter: https://twitter.com/cloudera
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: Kafka, Kafka Streams
+    - item:
+      organization: Confluent
+      name: Confluent Apache Kafka (Message Bus)
+      homepage_url: https://www.confluent.io/
+      open_source: true
+      repo_url: https://github.com/confluentinc/kafka
+      logo: confluent.svg
+      twitter: https://twitter.com/ConfluentInc
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+      status:
+      - odh
+      allow_duplicate_repo: true
+    - item:
+      organization: Lightbend
+      name: Lightbend Platform (Message Bus)
+      homepage_url: https://www.lightbend.com/
+      open_source: true
+      repo_url: null
+      logo: lightbend.svg
+      twitter: https://twitter.com/lightbend
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: Kafka, Kafka Streams, Flink, Spark
+    - item:
+      organization: Elastic.co
+      name: Elastic.co Beats (Message Bus)
+      homepage_url: https://www.elastic.co/products/beats
+      open_source: true
+      repo_url: https://github.com/elastic/beats
+      logo: elastic.svg
+      twitter: https://twitter.com/elastic
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+      allow_duplicate_repo: true
+    - item:
+      organization: Open Data Hub
+      name: Open Data Hub (Message Bus)
+      homepage_url: https://www.opendatahub.io
+      open_source: true
+      repo_url: null
+      logo: opendatahub.svg
+      twitter: https://twitter.com/opendatahubio
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: JupyterHub, Seldon-core, Argo, Ceph, Rook, Strimzi, Kafka, Kafka
+        Streams, KSQL, Kafka Connect, Prometheus, Grafana, Apache Spark, Hue, Hive
+        Metastore, Spark Thrift Server, Apache Superset, AI Library, BeakerX
+      status:
+      - odh
+      - community
   - subcategory:
     name: Workflows
-    items: []
+    items:
+    - item:
+      organization: IBM
+      name: IBM Cloud Pak for Data (Workflows)
+      homepage_url: https://www.ibm.com/products/cloud-pak-for-data
+      open_source: false
+      repo_url: null
+      logo: ibm.svg
+      twitter: https://twitter.com/IBMcloud
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: IBM
+      name: IBM InfoSphere DataStage (Workflows)
+      homepage_url: https://www.ibm.com/products/infosphere-datastage
+      open_source: false
+      repo_url: null
+      logo: ibm.svg
+      twitter: https://twitter.com/IBMcloud
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: IBM
+      name: IBM SPSS Modeler (Workflows)
+      homepage_url: https://www.ibm.com/products/spss-modeler
+      open_source: false
+      repo_url: null
+      logo: ibm.svg
+      twitter: https://twitter.com/IBMcloud
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: H20.ai
+      name: H20.ai H2O (Workflows)
+      homepage_url: https://www.h2o.ai/
+      open_source: false
+      repo_url: null
+      logo: h2o.svg
+      twitter: https://twitter.com/h2oai
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: H20.ai
+      name: H20.ai Driverless AI (Workflows)
+      homepage_url: https://www.h2o.ai/products/h2o-driverless-ai/
+      open_source: false
+      repo_url: null
+      logo: h2o.svg
+      twitter: https://twitter.com/h2oai
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+      status:
+      - community
+      - certified
+      - ubi
+    - item:
+      organization: Cloudera
+      name: Cloudera Data Science Workbench (Workflows)
+      homepage_url: https://www.cloudera.com/products/cloudera-data-platform.html
+      open_source: false
+      repo_url: null
+      logo: cloudera.svg
+      twitter: https://twitter.com/cloudera
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: Nifi
+    - item:
+      organization: Cloudera
+      name: Cloudera DataFlow (Workflows)
+      homepage_url: https://www.cloudera.com/products/cdf.html
+      open_source: false
+      repo_url: null
+      logo: cloudera.svg
+      twitter: https://twitter.com/cloudera
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: Kafka, Kafka Streams, Nifi
+      status:
+      - community
+      - ubi
+    - item:
+      organization: SAS
+      name: SAS Viya (Workflows)
+      homepage_url: https://www.sas.com/en_us/software/viya.html
+      open_source: false
+      repo_url: null
+      logo: sas-viya.svg
+      twitter: https://twitter.com/SASsoftware
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Hitachi
+      name: Hitachi Vantara (Workflows)
+      homepage_url: https://www.hitachivantara.com
+      open_source: false
+      repo_url: null
+      logo: hitachi.svg
+      twitter: https://twitter.com/HitachiVantara
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Datameer
+      name: Datameer (Workflows)
+      homepage_url: https://www.datameer.com
+      open_source: false
+      repo_url: null
+      logo: datameer.svg
+      twitter: https://twitter.com/datameer
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Perceptilabs
+      name: Perceptilabs Modeling and Visualization Tool (Workflows)
+      homepage_url: https://www.perceptilabs.com/
+      open_source: false
+      repo_url: null
+      logo: perceptilabs.svg
+      twitter: https://twitter.com/perceptilabs
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+      status:
+      - community
+      - certified
+      - ubi
+    - item:
+      organization: Databricks
+      name: Databricks Unified Analytics Platform (Workflows)
+      homepage_url: https://databricks.com/product/unified-analytics-platform
+      open_source: false
+      repo_url: null
+      logo: databricks.svg
+      twitter: https://twitter.com/databricks
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: Apache Spark
+    - item:
+      organization: KNIME
+      name: KNIME Analytics Platform (Workflows)
+      homepage_url: https://www.knime.com
+      open_source: true
+      repo_url: null
+      logo: knime.svg
+      twitter: https://twitter.com/knime
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: KNIME
+      name: KNIME Server (Workflows)
+      homepage_url: https://www.knime.com
+      open_source: true
+      repo_url: https://github.com/knime/knime-core
+      logo: knime.svg
+      twitter: https://twitter.com/knime
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+      allow_duplicate_repo: true
+    - item:
+      organization: Skymind
+      name: Skymind (Workflows)
+      homepage_url: https://skymind.ai/
+      open_source: false
+      repo_url: https://github.com/eclipse/deeplearning4j
+      logo: skymind.svg
+      twitter: https://twitter.com/skymindio
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+      allow_duplicate_repo: true
+    - item:
+      organization: DataRobot
+      name: DataRobot (Workflows)
+      homepage_url: https://www.datarobot.com/
+      open_source: false
+      repo_url: null
+      logo: datarobot.svg
+      twitter: https://twitter.com/DataRobot
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: One Convergence
+      name: One Convergence DKube (Workflows)
+      homepage_url: https://www.oneconvergence.com/dkube/
+      open_source: false
+      repo_url: null
+      logo: one-convergence.svg
+      twitter: https://twitter.com/oneconvergence
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: Kubeflow-Kaitib, Kubeflow Pipelines
+    - item:
+      organization: UIPath
+      name: UIPath RPA Platform (Workflows)
+      homepage_url: missing-homepage
+      open_source: false
+      repo_url: null
+      logo: no-image.svg
+      twitter: null
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: RapidMiner
+      name: RapidMiner (Workflows)
+      homepage_url: https://rapidminer.com/
+      open_source: false
+      repo_url: null
+      logo: rapidminer.svg
+      twitter: https://twitter.com/rapidminer
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Pipeline.ai
+      name: Pipeline.ai (Workflows)
+      homepage_url: https://pipeline.ai/
+      open_source: false
+      repo_url: https://github.com/PipelineAI/pipeline
+      logo: pipelineai.svg
+      twitter: https://twitter.com/PipelineAI
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: Kubeflow-Kaitib, MLFlow, Kubeflow-Tensorflow Serving, Kubeflow-PyTorch
+        Serving, Kubeflow-NVIDIA TensorRT Inference Server, Kubeflow-TensorFlow Batch
+        Predict, Kubeflow-Seldon, Seldon-core, Kubeflow-Jupyter Notebooks, Kubeflow-TensorFlow
+        Training (TF Job), Kubeflow Pipelines
+      allow_duplicate_repo: true
+    - item:
+      organization: Iguazio
+      name: Iguazio Data Science Platform (Workflows)
+      homepage_url: https://www.iguazio.com/
+      open_source: false
+      repo_url: null
+      logo: iguazio.svg
+      twitter: https://twitter.com/iguazio
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: Kubeflow-Kaitib, Kubeflow-Tensorflow Serving, Kubeflow-PyTorch Serving,
+        Kubeflow-NVIDIA TensorRT Inference Server, Kubeflow-TensorFlow Batch Predict,
+        Kubeflow-Seldon, Kubeflow-TensorFlow Training (TF Job), Kubeflow Pipelines
+    - item:
+      organization: Agile Stacks
+      name: Agile Stacks (Workflows)
+      homepage_url: https://www.agilestacks.com/
+      open_source: true
+      repo_url: null
+      logo: agile-stacks.svg
+      twitter: https://twitter.com/agilestacks
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: Kubeflow-Kaitib, Kubeflow-Tensorflow Serving, Kubeflow-PyTorch Serving,
+        Kubeflow-NVIDIA TensorRT Inference Server, Kubeflow-TensorFlow Batch Predict,
+        Kubeflow-Seldon, Seldon-core, Tensorflow Serving, Kubeflow-Jupyter Notebooks,
+        JupyterHub, Argo, Prometheus, Grafana
+    - item:
+      organization: C3.ai
+      name: C3.ai C3 AI Suite (Workflows)
+      homepage_url: https://c3.ai/c3-ai-suite/
+      open_source: false
+      repo_url: null
+      logo: c3-ai.svg
+      twitter: https://twitter.com/C3_AI
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: Jupyter Notebooks, Apache Spark
+    - item:
+      organization: XCalar
+      name: Xcalar Data Platform (Workflows)
+      homepage_url: https://xcalar.com/products/data-platform/
+      open_source: false
+      repo_url: null
+      logo: xcalar.svg
+      twitter: https://twitter.com/xcalarinc
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: SAP
+      name: SAP Hana (Workflows)
+      homepage_url: https://www.sap.com/products/hana.html
+      open_source: false
+      repo_url: null
+      logo: sap.svg
+      twitter: https://twitter.com/sap
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: cnvrg.io
+      name: cnvrg.io (Workflows)
+      homepage_url: https://cnvrg.io/
+      open_source: false
+      repo_url: null
+      logo: cnvrg.svg
+      twitter: https://twitter.com/cnvrg_io
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Alteryx
+      name: Alteryx Designer (Workflows)
+      homepage_url: https://www.alteryx.com/products/alteryx-platform/alteryx-designer
+      open_source: false
+      repo_url: null
+      logo: alteryx.svg
+      twitter: https://twitter.com/alteryx
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Alteryx
+      name: Alteryx Server (Workflows)
+      homepage_url: https://www.alteryx.com/products/alteryx-platform/alteryx-server
+      open_source: false
+      repo_url: null
+      logo: alteryx.svg
+      twitter: https://twitter.com/alteryx
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: TIBCO
+      name: TIBCO Data Science (Workflows)
+      homepage_url: https://www.tibco.com/products/data-science
+      open_source: false
+      repo_url: null
+      logo: tibco.svg
+      twitter: https://twitter.com/tibco
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: TIBCO
+      name: TIBCO Spotfire (Workflows)
+      homepage_url: https://www.tibco.com/products/tibco-spotfire
+      open_source: false
+      repo_url: null
+      logo: tibco.svg
+      twitter: https://twitter.com/tibco
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Open Data Hub
+      name: Open Data Hub (Workflows)
+      homepage_url: https://www.opendatahub.io
+      open_source: true
+      repo_url: null
+      logo: opendatahub.svg
+      twitter: https://twitter.com/opendatahubio
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: JupyterHub, Seldon-core, Argo, Ceph, Rook, Strimzi, Kafka, Kafka
+        Streams, KSQL, Kafka Connect, Prometheus, Grafana, Apache Spark, Hue, Hive
+        Metastore, Spark Thrift Server, Apache Superset, AI Library, BeakerX
+      status:
+      - odh
+      - community
   - subcategory:
     name: Data Orchestration
-    items: []
+    items:
+    - item:
+      organization: Alluxio
+      name: Alluxio (Data Orchestration)
+      homepage_url: https://www.alluxio.io/
+      open_source: false
+      repo_url: null
+      logo: alluxio.svg
+      twitter: https://twitter.com/alluxio
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
   - subcategory:
     name: Analytics Engine
-    items: []
+    items:
+    - item:
+      organization: H20.ai
+      name: H20.ai H2O (Analytics Engine)
+      homepage_url: https://www.h2o.ai/
+      open_source: false
+      repo_url: null
+      logo: h2o.svg
+      twitter: https://twitter.com/h2oai
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: H20.ai
+      name: H20.ai Driverless AI (Analytics Engine)
+      homepage_url: https://www.h2o.ai/products/h2o-driverless-ai/
+      open_source: false
+      repo_url: null
+      logo: h2o.svg
+      twitter: https://twitter.com/h2oai
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+      status:
+      - community
+      - certified
+      - ubi
+    - item:
+      organization: Starburst
+      name: Starburst Presto (Analytics Engine)
+      homepage_url: https://www.starburstdata.com/
+      open_source: true
+      repo_url: https://github.com/starburstdata/presto
+      logo: starburstdata.svg
+      twitter: https://twitter.com/starburstdata
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+      status:
+      - community
+      - certified
+      - ubi
+      allow_duplicate_repo: true
+    - item:
+      organization: SAS
+      name: SAS Viya (Analytics Engine)
+      homepage_url: https://www.sas.com/en_us/software/viya.html
+      open_source: false
+      repo_url: null
+      logo: sas-viya.svg
+      twitter: https://twitter.com/SASsoftware
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: SAS
+      name: SAS CAS (Analytics Engine)
+      homepage_url: https://www.sas.com/en_us/software/viya.html
+      open_source: false
+      repo_url: null
+      logo: sas-viya.svg
+      twitter: https://twitter.com/SASsoftware
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Sisense
+      name: Sisense (Analytics Engine)
+      homepage_url: https://www.sisense.com
+      open_source: false
+      repo_url: null
+      logo: sisense.svg
+      twitter: https://twitter.com/sisense
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Databricks
+      name: Databricks Unified Analytics Platform (Analytics Engine)
+      homepage_url: https://databricks.com/product/unified-analytics-platform
+      open_source: false
+      repo_url: null
+      logo: databricks.svg
+      twitter: https://twitter.com/databricks
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: Apache Spark
+    - item:
+      organization: Databricks
+      name: Databricks Azure Spark Operator (Analytics Engine)
+      homepage_url: https://azure.microsoft.com/en-us/services/databricks/
+      open_source: false
+      repo_url: null
+      logo: databricks.svg
+      twitter: https://twitter.com/databricks
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: Apache Spark
+    - item:
+      organization: Lightbend
+      name: Lightbend Platform (Analytics Engine)
+      homepage_url: https://www.lightbend.com/
+      open_source: true
+      repo_url: null
+      logo: lightbend.svg
+      twitter: https://twitter.com/lightbend
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: Kafka, Kafka Streams, Flink, Spark
+    - item:
+      organization: Elastic.co
+      name: Elastic.co Elasticsearch (Analytics Engine)
+      homepage_url: https://www.elastic.co/products/elasticsearch
+      open_source: true
+      repo_url: https://github.com/elastic/elasticsearch
+      logo: elastic.svg
+      twitter: https://twitter.com/elastic
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+      allow_duplicate_repo: true
+    - item:
+      organization: Feedzai
+      name: Feedzai Agile Machine Learning (Analytics Engine)
+      homepage_url: https://feedzai.com/
+      open_source: false
+      repo_url: null
+      logo: feedzai.svg
+      twitter: https://twitter.com/feedzai
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: Apache Spark
+    - item:
+      organization: LucidWorks
+      name: LucidWorks Fusion AI (Analytics Engine)
+      homepage_url: missing-homepage
+      open_source: false
+      repo_url: null
+      logo: no-image.svg
+      twitter: null
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: C3.ai
+      name: C3.ai C3 AI Suite (Analytics Engine)
+      homepage_url: https://c3.ai/c3-ai-suite/
+      open_source: false
+      repo_url: null
+      logo: c3-ai.svg
+      twitter: https://twitter.com/C3_AI
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: Jupyter Notebooks, Apache Spark
+    - item:
+      organization: Dremio
+      name: Dremio (Analytics Engine)
+      homepage_url: https://www.dremio.com/
+      open_source: false
+      repo_url: null
+      logo: dremio.svg
+      twitter: https://twitter.com/dremio
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Thoughtspot
+      name: Thoughtspot (Analytics Engine)
+      homepage_url: https://www.thoughtspot.com/
+      open_source: false
+      repo_url: null
+      logo: thoughtspot.svg
+      twitter: https://twitter.com/thoughtspot
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Dataiku
+      name: Dataiku (Analytics Engine)
+      homepage_url: https://www.dataiku.com/
+      open_source: false
+      repo_url: null
+      logo: dataiku.svg
+      twitter: https://twitter.com/dataiku
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: TIBCO
+      name: TIBCO ComputeDB (Analytics Engine)
+      homepage_url: https://www.tibco.com/products/tibco-computedb
+      open_source: false
+      repo_url: null
+      logo: tibco.svg
+      twitter: https://twitter.com/tibco
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Open Data Hub
+      name: Open Data Hub (Analytics Engine)
+      homepage_url: https://www.opendatahub.io
+      open_source: true
+      repo_url: null
+      logo: opendatahub.svg
+      twitter: https://twitter.com/opendatahubio
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: JupyterHub, Seldon-core, Argo, Ceph, Rook, Strimzi, Kafka, Kafka
+        Streams, KSQL, Kafka Connect, Prometheus, Grafana, Apache Spark, Hue, Hive
+        Metastore, Spark Thrift Server, Apache Superset, AI Library, BeakerX
+      status:
+      - odh
+      - community
   - subcategory:
     name: Stream Processing
-    items: []
+    items:
+    - item:
+      organization: IBM
+      name: IBM Cloud Pak for Data (Stream Processing)
+      homepage_url: https://www.ibm.com/products/cloud-pak-for-data
+      open_source: false
+      repo_url: null
+      logo: ibm.svg
+      twitter: https://twitter.com/IBMcloud
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: IBM
+      name: IBM Streams (Stream Processing)
+      homepage_url: https://www.ibm.com/cloud/streaming-analytics
+      open_source: false
+      repo_url: null
+      logo: ibm.svg
+      twitter: https://twitter.com/IBMcloud
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: IBM
+      name: IBM Db2 Warehouse (Stream Processing)
+      homepage_url: https://www.ibm.com/products/db2-warehouse
+      open_source: false
+      repo_url: null
+      logo: ibm.svg
+      twitter: https://twitter.com/IBMcloud
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Cloudera
+      name: Cloudera DataFlow (Stream Processing)
+      homepage_url: https://www.cloudera.com/products/cdf.html
+      open_source: false
+      repo_url: null
+      logo: cloudera.svg
+      twitter: https://twitter.com/cloudera
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: Kafka, Kafka Streams, Nifi
+      status:
+      - community
+      - ubi
+    - item:
+      organization: Cloudera
+      name: Cloudera CDP (Stream Processing)
+      homepage_url: https://www.cloudera.com/products/cloudera-data-platform.html
+      open_source: false
+      repo_url: null
+      logo: cloudera.svg
+      twitter: https://twitter.com/cloudera
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: Kafka, Kafka Streams
+    - item:
+      organization: SAS
+      name: SAS Viya (Stream Processing)
+      homepage_url: https://www.sas.com/en_us/software/viya.html
+      open_source: false
+      repo_url: null
+      logo: sas-viya.svg
+      twitter: https://twitter.com/SASsoftware
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: SAS
+      name: SAS ESP (Stream Processing)
+      homepage_url: https://www.sas.com/en_us/software/event-stream-processing.html
+      open_source: false
+      repo_url: null
+      logo: sas.svg
+      twitter: https://twitter.com/SASsoftware
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Hitachi
+      name: Hitachi Vantara (Stream Processing)
+      homepage_url: https://www.hitachivantara.com
+      open_source: false
+      repo_url: null
+      logo: hitachi.svg
+      twitter: https://twitter.com/HitachiVantara
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Confluent
+      name: Confluent Kafka Connect (Stream Processing)
+      homepage_url: https://docs.confluent.io/current/connect/index.html
+      open_source: true
+      repo_url: null
+      logo: confluent.svg
+      twitter: https://twitter.com/ConfluentInc
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+      status:
+      - odh
+    - item:
+      organization: Confluent
+      name: Confluent KSQL (Stream Processing)
+      homepage_url: https://www.confluent.io/product/ksql/
+      open_source: true
+      repo_url: https://github.com/confluentinc/ksql
+      logo: confluent.svg
+      twitter: https://twitter.com/ConfluentInc
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+      status:
+      - odh
+      allow_duplicate_repo: true
+    - item:
+      organization: UBix Labs
+      name: UBix Labs UBIX (Stream Processing)
+      homepage_url: https://ubixlabs.com/
+      open_source: false
+      repo_url: null
+      logo: ubix.svg
+      twitter: null
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Lightbend
+      name: Lightbend Platform (Stream Processing)
+      homepage_url: https://www.lightbend.com/
+      open_source: true
+      repo_url: null
+      logo: lightbend.svg
+      twitter: https://twitter.com/lightbend
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: Kafka, Kafka Streams, Flink, Spark
+    - item:
+      organization: Feedzai
+      name: Feedzai Agile Machine Learning (Stream Processing)
+      homepage_url: https://feedzai.com/
+      open_source: false
+      repo_url: null
+      logo: feedzai.svg
+      twitter: https://twitter.com/feedzai
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: Apache Spark
+    - item:
+      organization: DBS-H
+      name: DBS-H CR8 (Stream Processing)
+      homepage_url: missing-homepage
+      open_source: false
+      repo_url: null
+      logo: no-image.svg
+      twitter: null
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: SAP
+      name: SAP Hana (Stream Processing)
+      homepage_url: https://www.sap.com/products/hana.html
+      open_source: false
+      repo_url: null
+      logo: sap.svg
+      twitter: https://twitter.com/sap
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: TIBCO
+      name: TIBCO Streaming (Stream Processing)
+      homepage_url: https://www.tibco.com/products/data-science-streaming
+      open_source: false
+      repo_url: null
+      logo: tibco.svg
+      twitter: https://twitter.com/tibco
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: TIBCO
+      name: TIBCO Spotfire (Stream Processing)
+      homepage_url: https://www.tibco.com/products/tibco-spotfire
+      open_source: false
+      repo_url: null
+      logo: tibco.svg
+      twitter: https://twitter.com/tibco
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Open Data Hub
+      name: Open Data Hub (Stream Processing)
+      homepage_url: https://www.opendatahub.io
+      open_source: true
+      repo_url: null
+      logo: opendatahub.svg
+      twitter: https://twitter.com/opendatahubio
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: JupyterHub, Seldon-core, Argo, Ceph, Rook, Strimzi, Kafka, Kafka
+        Streams, KSQL, Kafka Connect, Prometheus, Grafana, Apache Spark, Hue, Hive
+        Metastore, Spark Thrift Server, Apache Superset, AI Library, BeakerX
+      status:
+      - odh
+      - community
   - subcategory:
     name: Batch Processing
-    items: []
+    items:
+    - item:
+      organization: IBM
+      name: IBM Cloud Pak for Data (Batch Processing)
+      homepage_url: https://www.ibm.com/products/cloud-pak-for-data
+      open_source: false
+      repo_url: null
+      logo: ibm.svg
+      twitter: https://twitter.com/IBMcloud
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Cloudera
+      name: Cloudera CDP (Batch Processing)
+      homepage_url: https://www.cloudera.com/products/cloudera-data-platform.html
+      open_source: false
+      repo_url: null
+      logo: cloudera.svg
+      twitter: https://twitter.com/cloudera
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: Kafka, Kafka Streams
+    - item:
+      organization: SAS
+      name: SAS Viya (Batch Processing)
+      homepage_url: https://www.sas.com/en_us/software/viya.html
+      open_source: false
+      repo_url: null
+      logo: sas-viya.svg
+      twitter: https://twitter.com/SASsoftware
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Sisense
+      name: Sisense (Batch Processing)
+      homepage_url: https://www.sisense.com
+      open_source: false
+      repo_url: null
+      logo: sisense.svg
+      twitter: https://twitter.com/sisense
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Hitachi
+      name: Hitachi Vantara (Batch Processing)
+      homepage_url: https://www.hitachivantara.com
+      open_source: false
+      repo_url: null
+      logo: hitachi.svg
+      twitter: https://twitter.com/HitachiVantara
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Datameer
+      name: Datameer (Batch Processing)
+      homepage_url: https://www.datameer.com
+      open_source: false
+      repo_url: null
+      logo: datameer.svg
+      twitter: https://twitter.com/datameer
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: UBix Labs
+      name: UBix Labs UBIX (Batch Processing)
+      homepage_url: https://ubixlabs.com/
+      open_source: false
+      repo_url: null
+      logo: ubix.svg
+      twitter: null
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Lightbend
+      name: Lightbend Platform (Batch Processing)
+      homepage_url: https://www.lightbend.com/
+      open_source: true
+      repo_url: null
+      logo: lightbend.svg
+      twitter: https://twitter.com/lightbend
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: Kafka, Kafka Streams, Flink, Spark
+    - item:
+      organization: Elastic.co
+      name: Elastic.co Logstash (Batch Processing)
+      homepage_url: https://www.elastic.co/products/logstash
+      open_source: true
+      repo_url: https://github.com/elastic/logstash
+      logo: elastic.svg
+      twitter: https://twitter.com/elastic
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+      allow_duplicate_repo: true
+    - item:
+      organization: KNIME
+      name: KNIME Analytics Platform (Batch Processing)
+      homepage_url: https://www.knime.com
+      open_source: true
+      repo_url: null
+      logo: knime.svg
+      twitter: https://twitter.com/knime
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Feedzai
+      name: Feedzai Agile Machine Learning (Batch Processing)
+      homepage_url: https://feedzai.com/
+      open_source: false
+      repo_url: null
+      logo: feedzai.svg
+      twitter: https://twitter.com/feedzai
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: Apache Spark
+    - item:
+      organization: Tamr
+      name: Tamr (Batch Processing)
+      homepage_url: missing-homepage
+      open_source: false
+      repo_url: null
+      logo: no-image.svg
+      twitter: null
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: XCalar
+      name: Xcalar Data Platform (Batch Processing)
+      homepage_url: https://xcalar.com/products/data-platform/
+      open_source: false
+      repo_url: null
+      logo: xcalar.svg
+      twitter: https://twitter.com/xcalarinc
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: SAP
+      name: SAP Hana (Batch Processing)
+      homepage_url: https://www.sap.com/products/hana.html
+      open_source: false
+      repo_url: null
+      logo: sap.svg
+      twitter: https://twitter.com/sap
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: TIBCO
+      name: TIBCO Spotfire (Batch Processing)
+      homepage_url: https://www.tibco.com/products/tibco-spotfire
+      open_source: false
+      repo_url: null
+      logo: tibco.svg
+      twitter: https://twitter.com/tibco
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Open Data Hub
+      name: Open Data Hub (Batch Processing)
+      homepage_url: https://www.opendatahub.io
+      open_source: true
+      repo_url: null
+      logo: opendatahub.svg
+      twitter: https://twitter.com/opendatahubio
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: JupyterHub, Seldon-core, Argo, Ceph, Rook, Strimzi, Kafka, Kafka
+        Streams, KSQL, Kafka Connect, Prometheus, Grafana, Apache Spark, Hue, Hive
+        Metastore, Spark Thrift Server, Apache Superset, AI Library, BeakerX
+      status:
+      - odh
+      - community
 - category:
   name: Data Store
   subcategories:
   - subcategory:
     name: Object Storage
-    items: []
+    items:
+    - item:
+      organization: Portworx
+      name: Portworx PX-Enterprise (Object Storage)
+      homepage_url: https://portworx.com
+      open_source: false
+      repo_url: null
+      logo: portworx.svg
+      twitter: https://twitter.com/portwx
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+      status:
+      - community
+    - item:
+      organization: Pure Storage
+      name: Pure Storage FlashBlade (Object Storage)
+      homepage_url: https://www.purestorage.com/products/flashblade.html
+      open_source: false
+      repo_url: null
+      logo: pure-storage.svg
+      twitter: https://twitter.com/PureStorage
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Open Data Hub
+      name: Open Data Hub (Object Storage)
+      homepage_url: https://www.opendatahub.io
+      open_source: true
+      repo_url: null
+      logo: opendatahub.svg
+      twitter: https://twitter.com/opendatahubio
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: JupyterHub, Seldon-core, Argo, Ceph, Rook, Strimzi, Kafka, Kafka
+        Streams, KSQL, Kafka Connect, Prometheus, Grafana, Apache Spark, Hue, Hive
+        Metastore, Spark Thrift Server, Apache Superset, AI Library, BeakerX
+      status:
+      - odh
+      - community
   - subcategory:
     name: In Memory Data Store
-    items: []
+    items:
+    - item:
+      organization: SAS
+      name: SAS Viya (In Memory Data Store)
+      homepage_url: https://www.sas.com/en_us/software/viya.html
+      open_source: false
+      repo_url: null
+      logo: sas-viya.svg
+      twitter: https://twitter.com/SASsoftware
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Redis Labs
+      name: Redis Labs Redis (In Memory Data Store)
+      homepage_url: https://redis.io/
+      open_source: true
+      repo_url: https://github.com/antirez/redis
+      logo: redis.svg
+      twitter: https://twitter.com/redislabs
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+      status:
+      - community
+      allow_duplicate_repo: true
+    - item:
+      organization: SAP
+      name: SAP Hana (In Memory Data Store)
+      homepage_url: https://www.sap.com/products/hana.html
+      open_source: false
+      repo_url: null
+      logo: sap.svg
+      twitter: https://twitter.com/sap
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Minio
+      name: Minio (In Memory Data Store)
+      homepage_url: https://min.io/
+      open_source: false
+      repo_url: null
+      logo: minio.svg
+      twitter: https://twitter.com/Minio
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+      status:
+      - community
   - subcategory:
     name: Data Virtualization
-    items: []
+    items:
+    - item:
+      organization: IBM
+      name: IBM Cloud Pak for Data (Data Virtualization)
+      homepage_url: https://www.ibm.com/products/cloud-pak-for-data
+      open_source: false
+      repo_url: null
+      logo: ibm.svg
+      twitter: https://twitter.com/IBMcloud
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: IBM
+      name: IBM Data Virtualization (Data Virtualization)
+      homepage_url: https://www.ibm.com/analytics/data-virtualization
+      open_source: false
+      repo_url: null
+      logo: ibm.svg
+      twitter: https://twitter.com/IBMcloud
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: CognitiveScale
+      name: CognitiveScale Fabric (Data Virtualization)
+      homepage_url: https://www.cognitivescale.com/cortex/
+      open_source: false
+      repo_url: null
+      logo: cognitivescale.svg
+      twitter: https://twitter.com/cognitivescale
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: SAS
+      name: SAS Viya (Data Virtualization)
+      homepage_url: https://www.sas.com/en_us/software/viya.html
+      open_source: false
+      repo_url: null
+      logo: sas-viya.svg
+      twitter: https://twitter.com/SASsoftware
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Tamr
+      name: Tamr (Data Virtualization)
+      homepage_url: missing-homepage
+      open_source: false
+      repo_url: null
+      logo: no-image.svg
+      twitter: null
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: SAP
+      name: SAP Hana (Data Virtualization)
+      homepage_url: https://www.sap.com/products/hana.html
+      open_source: false
+      repo_url: null
+      logo: sap.svg
+      twitter: https://twitter.com/sap
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Data.world
+      name: Data.world (Data Virtualization)
+      homepage_url: https://data.world/
+      open_source: false
+      repo_url: null
+      logo: data-world.svg
+      twitter: https://twitter.com/datadotworld
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: TIBCO
+      name: TIBCO Data Virtualization (Data Virtualization)
+      homepage_url: https://www.tibco.com/products/data-virtualization
+      open_source: false
+      repo_url: null
+      logo: tibco.svg
+      twitter: https://twitter.com/tibco
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
   - subcategory:
     name: NoSQL Databases
-    items: []
+    items:
+    - item:
+      organization: Couchbase
+      name: Couchbase Server (NoSQL Databases)
+      homepage_url: https://www.couchbase.com/products/server
+      open_source: true
+      repo_url: https://github.com/couchbase/manifest
+      logo: couchbase.svg
+      twitter: https://twitter.com/couchbase
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+      allow_duplicate_repo: true
+    - item:
+      organization: MongoDB
+      name: MongoDB (NoSQL Databases)
+      homepage_url: https://www.mongodb.com/
+      open_source: true
+      repo_url: https://github.com/mongodb/mongo
+      logo: mongodb.svg
+      twitter: https://twitter.com/mongodb
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+      status:
+      - community
+      allow_duplicate_repo: true
+    - item:
+      organization: DGraph
+      name: DGraph (NoSQL Databases)
+      homepage_url: missing-homepage
+      open_source: false
+      repo_url: null
+      logo: no-image.svg
+      twitter: null
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: TIBCO
+      name: TIBCO Graph Database (NoSQL Databases)
+      homepage_url: https://www.tibco.com/products/tibco-graph-database
+      open_source: false
+      repo_url: null
+      logo: tibco.svg
+      twitter: https://twitter.com/tibco
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
   - subcategory:
     name: Relational Databases
-    items: []
+    items:
+    - item:
+      organization: Crunchy Data
+      name: Crunchy Data Crunchy Certified PostgreSQL with Crunchy PostgreSQL for
+        Kubernetes (Relational Databases)
+      homepage_url: https://www.crunchydata.com/products/crunchy-postgresql-for-kubernetes/
+      open_source: true
+      repo_url: null
+      logo: crunchydata.svg
+      twitter: https://twitter.com/crunchydata
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
   - subcategory:
     name: Analytics Database/Data Warehouse
-    items: []
+    items:
+    - item:
+      organization: IBM
+      name: IBM Cloud Pak for Data (Analytics Database/Data Warehouse)
+      homepage_url: https://www.ibm.com/products/cloud-pak-for-data
+      open_source: false
+      repo_url: null
+      logo: ibm.svg
+      twitter: https://twitter.com/IBMcloud
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: IBM
+      name: IBM Db2 Warehouse (Analytics Database/Data Warehouse)
+      homepage_url: https://www.ibm.com/products/db2-warehouse
+      open_source: false
+      repo_url: null
+      logo: ibm.svg
+      twitter: https://twitter.com/IBMcloud
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Sisense
+      name: Sisense (Analytics Database/Data Warehouse)
+      homepage_url: https://www.sisense.com
+      open_source: false
+      repo_url: null
+      logo: sisense.svg
+      twitter: https://twitter.com/sisense
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: OmniSci
+      name: OmniSciDB (Analytics Database/Data Warehouse)
+      homepage_url: https://www.omnisci.com/platform/omniscidb
+      open_source: false
+      repo_url: null
+      logo: omnisci.svg
+      twitter: https://twitter.com/OmniSci
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
 - category:
   name: Data Governance and Security
   subcategories:
   - subcategory:
     name: Provenance and Lineage
-    items: []
+    items:
+    - item:
+      organization: Cloudera
+      name: Cloudera Shared Data Experience (SDX) (Provenance and Lineage)
+      homepage_url: https://www.cloudera.com/products/sdx.html
+      open_source: false
+      repo_url: null
+      logo: cloudera.svg
+      twitter: https://twitter.com/cloudera
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: Atlas, Ranger, Hive Metastore
+    - item:
+      organization: Datameer
+      name: Datameer (Provenance and Lineage)
+      homepage_url: https://www.datameer.com
+      open_source: false
+      repo_url: null
+      logo: datameer.svg
+      twitter: https://twitter.com/datameer
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Dotscience
+      name: Dotscience (Provenance and Lineage)
+      homepage_url: https://dotscience.com/
+      open_source: false
+      repo_url: null
+      logo: dotscience.svg
+      twitter: https://twitter.com/getdotscience
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: JupyterLab
+    - item:
+      organization: Pachyderm
+      name: Pachyderm Enterprise (Provenance and Lineage)
+      homepage_url: https://www.pachyderm.io/enterprise.html
+      open_source: false
+      repo_url: null
+      logo: pachyderm.svg
+      twitter: https://twitter.com/pachydermIO
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Pachyderm
+      name: Pachyderm Open Source (Provenance and Lineage)
+      homepage_url: https://www.pachyderm.io/open_source.html
+      open_source: true
+      repo_url: https://github.com/pachyderm/pachyderm
+      logo: pachyderm.svg
+      twitter: https://twitter.com/pachydermIO
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+      allow_duplicate_repo: true
+    - item:
+      organization: Thoughtspot
+      name: Thoughtspot (Provenance and Lineage)
+      homepage_url: https://www.thoughtspot.com/
+      open_source: false
+      repo_url: null
+      logo: thoughtspot.svg
+      twitter: https://twitter.com/thoughtspot
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: BCG
+      name: BCG Source.ai (Provenance and Lineage)
+      homepage_url: https://source.ai/
+      open_source: false
+      repo_url: null
+      logo: source-ai.svg
+      twitter: https://twitter.com/BCG
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
   - subcategory:
     name: Authentication
-    items: []
+    items:
+    - item:
+      organization: IBM
+      name: IBM Data Virtualization (Authentication)
+      homepage_url: https://www.ibm.com/analytics/data-virtualization
+      open_source: false
+      repo_url: null
+      logo: ibm.svg
+      twitter: https://twitter.com/IBMcloud
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: CognitiveScale
+      name: CognitiveScale Fabric (Authentication)
+      homepage_url: https://www.cognitivescale.com/cortex/
+      open_source: false
+      repo_url: null
+      logo: cognitivescale.svg
+      twitter: https://twitter.com/cognitivescale
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: SAS
+      name: SAS Viya (Authentication)
+      homepage_url: https://www.sas.com/en_us/software/viya.html
+      open_source: false
+      repo_url: null
+      logo: sas-viya.svg
+      twitter: https://twitter.com/SASsoftware
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Sisense
+      name: Sisense (Authentication)
+      homepage_url: https://www.sisense.com
+      open_source: false
+      repo_url: null
+      logo: sisense.svg
+      twitter: https://twitter.com/sisense
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Datameer
+      name: Datameer (Authentication)
+      homepage_url: https://www.datameer.com
+      open_source: false
+      repo_url: null
+      logo: datameer.svg
+      twitter: https://twitter.com/datameer
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: KNIME
+      name: KNIME Server (Authentication)
+      homepage_url: https://www.knime.com
+      open_source: true
+      repo_url: https://github.com/knime/knime-core
+      logo: knime.svg
+      twitter: https://twitter.com/knime
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+      allow_duplicate_repo: true
+    - item:
+      organization: Pachyderm
+      name: Pachyderm Enterprise (Authentication)
+      homepage_url: https://www.pachyderm.io/enterprise.html
+      open_source: false
+      repo_url: null
+      logo: pachyderm.svg
+      twitter: https://twitter.com/pachydermIO
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Immuta
+      name: Immuta (Authentication)
+      homepage_url: missing-homepage
+      open_source: false
+      repo_url: null
+      logo: no-image.svg
+      twitter: null
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: One Convergence
+      name: One Convergence DKube (Authentication)
+      homepage_url: https://www.oneconvergence.com/dkube/
+      open_source: false
+      repo_url: null
+      logo: one-convergence.svg
+      twitter: https://twitter.com/oneconvergence
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: Kubeflow-Kaitib, Kubeflow Pipelines
+    - item:
+      organization: C3.ai
+      name: C3.ai C3 AI Suite (Authentication)
+      homepage_url: https://c3.ai/c3-ai-suite/
+      open_source: false
+      repo_url: null
+      logo: c3-ai.svg
+      twitter: https://twitter.com/C3_AI
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: Jupyter Notebooks, Apache Spark
+    - item:
+      organization: SAP
+      name: SAP Hana (Authentication)
+      homepage_url: https://www.sap.com/products/hana.html
+      open_source: false
+      repo_url: null
+      logo: sap.svg
+      twitter: https://twitter.com/sap
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Thoughtspot
+      name: Thoughtspot (Authentication)
+      homepage_url: https://www.thoughtspot.com/
+      open_source: false
+      repo_url: null
+      logo: thoughtspot.svg
+      twitter: https://twitter.com/thoughtspot
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: BCG
+      name: BCG Source.ai (Authentication)
+      homepage_url: https://source.ai/
+      open_source: false
+      repo_url: null
+      logo: source-ai.svg
+      twitter: https://twitter.com/BCG
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
   - subcategory:
     name: Authorization
-    items: []
+    items:
+    - item:
+      organization: CognitiveScale
+      name: CognitiveScale Fabric (Authorization)
+      homepage_url: https://www.cognitivescale.com/cortex/
+      open_source: false
+      repo_url: null
+      logo: cognitivescale.svg
+      twitter: https://twitter.com/cognitivescale
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Cloudera
+      name: Cloudera Shared Data Experience (SDX) (Authorization)
+      homepage_url: https://www.cloudera.com/products/sdx.html
+      open_source: false
+      repo_url: null
+      logo: cloudera.svg
+      twitter: https://twitter.com/cloudera
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: Atlas, Ranger, Hive Metastore
+    - item:
+      organization: SAS
+      name: SAS Viya (Authorization)
+      homepage_url: https://www.sas.com/en_us/software/viya.html
+      open_source: false
+      repo_url: null
+      logo: sas-viya.svg
+      twitter: https://twitter.com/SASsoftware
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Sisense
+      name: Sisense (Authorization)
+      homepage_url: https://www.sisense.com
+      open_source: false
+      repo_url: null
+      logo: sisense.svg
+      twitter: https://twitter.com/sisense
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Datameer
+      name: Datameer (Authorization)
+      homepage_url: https://www.datameer.com
+      open_source: false
+      repo_url: null
+      logo: datameer.svg
+      twitter: https://twitter.com/datameer
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Styra
+      name: Styra (Authorization)
+      homepage_url: https://www.styra.com/
+      open_source: false
+      repo_url: null
+      logo: styra.svg
+      twitter: https://twitter.com/styrainc
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: Open Policy Agent
+    - item:
+      organization: KNIME
+      name: KNIME Server (Authorization)
+      homepage_url: https://www.knime.com
+      open_source: true
+      repo_url: https://github.com/knime/knime-core
+      logo: knime.svg
+      twitter: https://twitter.com/knime
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+      allow_duplicate_repo: true
+    - item:
+      organization: Pachyderm
+      name: Pachyderm Enterprise (Authorization)
+      homepage_url: https://www.pachyderm.io/enterprise.html
+      open_source: false
+      repo_url: null
+      logo: pachyderm.svg
+      twitter: https://twitter.com/pachydermIO
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Immuta
+      name: Immuta (Authorization)
+      homepage_url: missing-homepage
+      open_source: false
+      repo_url: null
+      logo: no-image.svg
+      twitter: null
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: One Convergence
+      name: One Convergence DKube (Authorization)
+      homepage_url: https://www.oneconvergence.com/dkube/
+      open_source: false
+      repo_url: null
+      logo: one-convergence.svg
+      twitter: https://twitter.com/oneconvergence
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: Kubeflow-Kaitib, Kubeflow Pipelines
+    - item:
+      organization: C3.ai
+      name: C3.ai C3 AI Suite (Authorization)
+      homepage_url: https://c3.ai/c3-ai-suite/
+      open_source: false
+      repo_url: null
+      logo: c3-ai.svg
+      twitter: https://twitter.com/C3_AI
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: Jupyter Notebooks, Apache Spark
+    - item:
+      organization: SAP
+      name: SAP Hana (Authorization)
+      homepage_url: https://www.sap.com/products/hana.html
+      open_source: false
+      repo_url: null
+      logo: sap.svg
+      twitter: https://twitter.com/sap
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Thoughtspot
+      name: Thoughtspot (Authorization)
+      homepage_url: https://www.thoughtspot.com/
+      open_source: false
+      repo_url: null
+      logo: thoughtspot.svg
+      twitter: https://twitter.com/thoughtspot
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: TIBCO
+      name: TIBCO Data Science (Authorization)
+      homepage_url: https://www.tibco.com/products/data-science
+      open_source: false
+      repo_url: null
+      logo: tibco.svg
+      twitter: https://twitter.com/tibco
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
   - subcategory:
     name: Data Encryption
-    items: []
+    items:
+    - item:
+      organization: Cloudera
+      name: Cloudera Shared Data Experience (SDX) (Data Encryption)
+      homepage_url: https://www.cloudera.com/products/sdx.html
+      open_source: false
+      repo_url: null
+      logo: cloudera.svg
+      twitter: https://twitter.com/cloudera
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: Atlas, Ranger, Hive Metastore
+    - item:
+      organization: SAS
+      name: SAS Viya (Data Encryption)
+      homepage_url: https://www.sas.com/en_us/software/viya.html
+      open_source: false
+      repo_url: null
+      logo: sas-viya.svg
+      twitter: https://twitter.com/SASsoftware
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Datameer
+      name: Datameer (Data Encryption)
+      homepage_url: https://www.datameer.com
+      open_source: false
+      repo_url: null
+      logo: datameer.svg
+      twitter: https://twitter.com/datameer
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Lightbend
+      name: Lightbend Platform (Data Encryption)
+      homepage_url: https://www.lightbend.com/
+      open_source: true
+      repo_url: null
+      logo: lightbend.svg
+      twitter: https://twitter.com/lightbend
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: Kafka, Kafka Streams, Flink, Spark
+    - item:
+      organization: Tamr
+      name: Tamr (Data Encryption)
+      homepage_url: missing-homepage
+      open_source: false
+      repo_url: null
+      logo: no-image.svg
+      twitter: null
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Immuta
+      name: Immuta (Data Encryption)
+      homepage_url: missing-homepage
+      open_source: false
+      repo_url: null
+      logo: no-image.svg
+      twitter: null
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: C3.ai
+      name: C3.ai C3 AI Suite (Data Encryption)
+      homepage_url: https://c3.ai/c3-ai-suite/
+      open_source: false
+      repo_url: null
+      logo: c3-ai.svg
+      twitter: https://twitter.com/C3_AI
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: Jupyter Notebooks, Apache Spark
+    - item:
+      organization: BCG
+      name: BCG Source.ai (Data Encryption)
+      homepage_url: https://source.ai/
+      open_source: false
+      repo_url: null
+      logo: source-ai.svg
+      twitter: https://twitter.com/BCG
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
   - subcategory:
     name: Data Catalog
-    items: []
+    items:
+    - item:
+      organization: IBM
+      name: IBM Cloud Pak for Data (Data Catalog)
+      homepage_url: https://www.ibm.com/products/cloud-pak-for-data
+      open_source: false
+      repo_url: null
+      logo: ibm.svg
+      twitter: https://twitter.com/IBMcloud
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: IBM
+      name: IBM InfoSphere DataStage (Data Catalog)
+      homepage_url: https://www.ibm.com/products/infosphere-datastage
+      open_source: false
+      repo_url: null
+      logo: ibm.svg
+      twitter: https://twitter.com/IBMcloud
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: IBM
+      name: IBM Watson Knowledge Catalog (Data Catalog)
+      homepage_url: https://www.ibm.com/cloud/watson-knowledge-catalog
+      open_source: false
+      repo_url: null
+      logo: ibm.svg
+      twitter: https://twitter.com/IBMcloud
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Cloudera
+      name: Cloudera Shared Data Experience (SDX) (Data Catalog)
+      homepage_url: https://www.cloudera.com/products/sdx.html
+      open_source: false
+      repo_url: null
+      logo: cloudera.svg
+      twitter: https://twitter.com/cloudera
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: Atlas, Ranger, Hive Metastore
+    - item:
+      organization: SAS
+      name: SAS Viya (Data Catalog)
+      homepage_url: https://www.sas.com/en_us/software/viya.html
+      open_source: false
+      repo_url: null
+      logo: sas-viya.svg
+      twitter: https://twitter.com/SASsoftware
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Datameer
+      name: Datameer (Data Catalog)
+      homepage_url: https://www.datameer.com
+      open_source: false
+      repo_url: null
+      logo: datameer.svg
+      twitter: https://twitter.com/datameer
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Pachyderm
+      name: Pachyderm Enterprise (Data Catalog)
+      homepage_url: https://www.pachyderm.io/enterprise.html
+      open_source: false
+      repo_url: null
+      logo: pachyderm.svg
+      twitter: https://twitter.com/pachydermIO
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Pachyderm
+      name: Pachyderm Open Source (Data Catalog)
+      homepage_url: https://www.pachyderm.io/open_source.html
+      open_source: true
+      repo_url: https://github.com/pachyderm/pachyderm
+      logo: pachyderm.svg
+      twitter: https://twitter.com/pachydermIO
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+      allow_duplicate_repo: true
+    - item:
+      organization: Tamr
+      name: Tamr (Data Catalog)
+      homepage_url: missing-homepage
+      open_source: false
+      repo_url: null
+      logo: no-image.svg
+      twitter: null
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Immuta
+      name: Immuta (Data Catalog)
+      homepage_url: missing-homepage
+      open_source: false
+      repo_url: null
+      logo: no-image.svg
+      twitter: null
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: C3.ai
+      name: C3.ai C3 AI Suite (Data Catalog)
+      homepage_url: https://c3.ai/c3-ai-suite/
+      open_source: false
+      repo_url: null
+      logo: c3-ai.svg
+      twitter: https://twitter.com/C3_AI
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: Jupyter Notebooks, Apache Spark
+    - item:
+      organization: Data.world
+      name: Data.world (Data Catalog)
+      homepage_url: https://data.world/
+      open_source: false
+      repo_url: null
+      logo: data-world.svg
+      twitter: https://twitter.com/datadotworld
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: BCG
+      name: BCG Source.ai (Data Catalog)
+      homepage_url: https://source.ai/
+      open_source: false
+      repo_url: null
+      logo: source-ai.svg
+      twitter: https://twitter.com/BCG
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Alteryx
+      name: Alteryx Connect (Data Catalog)
+      homepage_url: https://www.alteryx.com/products/alteryx-platform/alteryx-connect
+      open_source: false
+      repo_url: null
+      logo: alteryx.svg
+      twitter: https://twitter.com/alteryx
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Open Data Hub
+      name: Open Data Hub (Data Catalog)
+      homepage_url: https://www.opendatahub.io
+      open_source: true
+      repo_url: null
+      logo: opendatahub.svg
+      twitter: https://twitter.com/opendatahubio
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: JupyterHub, Seldon-core, Argo, Ceph, Rook, Strimzi, Kafka, Kafka
+        Streams, KSQL, Kafka Connect, Prometheus, Grafana, Apache Spark, Hue, Hive
+        Metastore, Spark Thrift Server, Apache Superset, AI Library, BeakerX
+      status:
+      - odh
+      - community
   - subcategory:
     name: Data Classification
-    items: []
+    items:
+    - item:
+      organization: IBM
+      name: IBM Cloud Pak for Data (Data Classification)
+      homepage_url: https://www.ibm.com/products/cloud-pak-for-data
+      open_source: false
+      repo_url: null
+      logo: ibm.svg
+      twitter: https://twitter.com/IBMcloud
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Cloudera
+      name: Cloudera Shared Data Experience (SDX) (Data Classification)
+      homepage_url: https://www.cloudera.com/products/sdx.html
+      open_source: false
+      repo_url: null
+      logo: cloudera.svg
+      twitter: https://twitter.com/cloudera
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: Atlas, Ranger, Hive Metastore
+    - item:
+      organization: Tamr
+      name: Tamr (Data Classification)
+      homepage_url: missing-homepage
+      open_source: false
+      repo_url: null
+      logo: no-image.svg
+      twitter: null
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Immuta
+      name: Immuta (Data Classification)
+      homepage_url: missing-homepage
+      open_source: false
+      repo_url: null
+      logo: no-image.svg
+      twitter: null
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
   - subcategory:
     name: Data Versioning
-    items: []
+    items:
+    - item:
+      organization: IBM
+      name: IBM Cloud Pak for Data (Data Versioning)
+      homepage_url: https://www.ibm.com/products/cloud-pak-for-data
+      open_source: false
+      repo_url: null
+      logo: ibm.svg
+      twitter: https://twitter.com/IBMcloud
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Dotscience
+      name: Dotscience (Data Versioning)
+      homepage_url: https://dotscience.com/
+      open_source: false
+      repo_url: null
+      logo: dotscience.svg
+      twitter: https://twitter.com/getdotscience
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: JupyterLab
+    - item:
+      organization: Pachyderm
+      name: Pachyderm Enterprise (Data Versioning)
+      homepage_url: https://www.pachyderm.io/enterprise.html
+      open_source: false
+      repo_url: null
+      logo: pachyderm.svg
+      twitter: https://twitter.com/pachydermIO
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Pachyderm
+      name: Pachyderm Open Source (Data Versioning)
+      homepage_url: https://www.pachyderm.io/open_source.html
+      open_source: true
+      repo_url: https://github.com/pachyderm/pachyderm
+      logo: pachyderm.svg
+      twitter: https://twitter.com/pachydermIO
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+      allow_duplicate_repo: true
+    - item:
+      organization: Arrikto
+      name: Arrikto Rok (Data Versioning)
+      homepage_url: https://www.arrikto.com/
+      open_source: false
+      repo_url: null
+      logo: arrikto.svg
+      twitter: https://twitter.com/arrikto
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: BCG
+      name: BCG Source.ai (Data Versioning)
+      homepage_url: https://source.ai/
+      open_source: false
+      repo_url: null
+      logo: source-ai.svg
+      twitter: https://twitter.com/BCG
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: cnvrg.io
+      name: cnvrg.io (Data Versioning)
+      homepage_url: https://cnvrg.io/
+      open_source: false
+      repo_url: null
+      logo: cnvrg.svg
+      twitter: https://twitter.com/cnvrg_io
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
   - subcategory:
     name: API Management
     items: []
@@ -106,19 +3728,253 @@ landscape:
   subcategories:
   - subcategory:
     name: Monitoring and Alerting
-    items: []
+    items:
+    - item:
+      organization: CognitiveScale
+      name: CognitiveScale Cortex Certifai (Monitoring and Alerting)
+      homepage_url: https://www.cognitivescale.com/certifai/
+      open_source: false
+      repo_url: null
+      logo: cognitivescale.svg
+      twitter: https://twitter.com/cognitivescale
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Cloudera
+      name: Cloudera Data Science Workbench (Monitoring and Alerting)
+      homepage_url: https://www.cloudera.com/products/cloudera-data-platform.html
+      open_source: false
+      repo_url: null
+      logo: cloudera.svg
+      twitter: https://twitter.com/cloudera
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: Nifi
+    - item:
+      organization: Lightbend
+      name: Lightbend Platform (Monitoring and Alerting)
+      homepage_url: https://www.lightbend.com/
+      open_source: true
+      repo_url: null
+      logo: lightbend.svg
+      twitter: https://twitter.com/lightbend
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: Kafka, Kafka Streams, Flink, Spark
+    - item:
+      organization: Agile Stacks
+      name: Agile Stacks (Monitoring and Alerting)
+      homepage_url: https://www.agilestacks.com/
+      open_source: true
+      repo_url: null
+      logo: agile-stacks.svg
+      twitter: https://twitter.com/agilestacks
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: Kubeflow-Kaitib, Kubeflow-Tensorflow Serving, Kubeflow-PyTorch Serving,
+        Kubeflow-NVIDIA TensorRT Inference Server, Kubeflow-TensorFlow Batch Predict,
+        Kubeflow-Seldon, Seldon-core, Tensorflow Serving, Kubeflow-Jupyter Notebooks,
+        JupyterHub, Argo, Prometheus, Grafana
+    - item:
+      organization: Splunk
+      name: Splunk (Monitoring and Alerting)
+      homepage_url: https://www.splunk.com/
+      open_source: false
+      repo_url: null
+      logo: splunk.svg
+      twitter: https://twitter.com/splunk
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Bright Computing
+      name: Bright Computing Bright Cluster Manager for Data Science (Monitoring and
+        Alerting)
+      homepage_url: https://www.brightcomputing.com/product-offerings/bright-cluster-manager-for-data-science
+      open_source: false
+      repo_url: null
+      logo: bright-computing.svg
+      twitter: https://twitter.com/BrightComputing
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Open Data Hub
+      name: Open Data Hub (Monitoring and Alerting)
+      homepage_url: https://www.opendatahub.io
+      open_source: true
+      repo_url: null
+      logo: opendatahub.svg
+      twitter: https://twitter.com/opendatahubio
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: JupyterHub, Seldon-core, Argo, Ceph, Rook, Strimzi, Kafka, Kafka
+        Streams, KSQL, Kafka Connect, Prometheus, Grafana, Apache Spark, Hue, Hive
+        Metastore, Spark Thrift Server, Apache Superset, AI Library, BeakerX
+      status:
+      - odh
+      - community
   - subcategory:
     name: Metric Visualization
-    items: []
+    items:
+    - item:
+      organization: CognitiveScale
+      name: CognitiveScale X-RAI (Metric Visualization)
+      homepage_url: https://www.cognitivescale.com/cortex/
+      open_source: false
+      repo_url: null
+      logo: cognitivescale.svg
+      twitter: https://twitter.com/cognitivescale
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Agile Stacks
+      name: Agile Stacks (Metric Visualization)
+      homepage_url: https://www.agilestacks.com/
+      open_source: true
+      repo_url: null
+      logo: agile-stacks.svg
+      twitter: https://twitter.com/agilestacks
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: Kubeflow-Kaitib, Kubeflow-Tensorflow Serving, Kubeflow-PyTorch Serving,
+        Kubeflow-NVIDIA TensorRT Inference Server, Kubeflow-TensorFlow Batch Predict,
+        Kubeflow-Seldon, Seldon-core, Tensorflow Serving, Kubeflow-Jupyter Notebooks,
+        JupyterHub, Argo, Prometheus, Grafana
+    - item:
+      organization: Open Data Hub
+      name: Open Data Hub (Metric Visualization)
+      homepage_url: https://www.opendatahub.io
+      open_source: true
+      repo_url: null
+      logo: opendatahub.svg
+      twitter: https://twitter.com/opendatahubio
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: JupyterHub, Seldon-core, Argo, Ceph, Rook, Strimzi, Kafka, Kafka
+        Streams, KSQL, Kafka Connect, Prometheus, Grafana, Apache Spark, Hue, Hive
+        Metastore, Spark Thrift Server, Apache Superset, AI Library, BeakerX
+      status:
+      - odh
+      - community
   - subcategory:
     name: AIOPs
-    items: []
+    items:
+    - item:
+      organization: CognitiveScale
+      name: CognitiveScale Cortex Certifai (AIOPs)
+      homepage_url: https://www.cognitivescale.com/certifai/
+      open_source: false
+      repo_url: null
+      logo: cognitivescale.svg
+      twitter: https://twitter.com/cognitivescale
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: ProphetStor
+      name: ProphetStor Federator.AI (AIOPs)
+      homepage_url: https://www.prophetstor.com/federator-ai/
+      open_source: false
+      repo_url: null
+      logo: prophetstor.svg
+      twitter: https://twitter.com/ProphetStor
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+      status:
+      - community
+      - certified
+      - ubi
+    - item:
+      organization: Riverbed
+      name: Riverbed (AIOPs)
+      homepage_url: https://www.riverbed.com
+      open_source: false
+      repo_url: null
+      logo: riverbed.svg
+      twitter: https://twitter.com/RIVERBED
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Moogsoft
+      name: Moogsoft (AIOPs)
+      homepage_url: https://www.moogsoft.com/
+      open_source: false
+      repo_url: null
+      logo: moogsoft.svg
+      twitter: https://twitter.com/moogsoft
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Bright Computing
+      name: Bright Computing Bright Cluster Manager for Data Science (AIOPs)
+      homepage_url: https://www.brightcomputing.com/product-offerings/bright-cluster-manager-for-data-science
+      open_source: false
+      repo_url: null
+      logo: bright-computing.svg
+      twitter: https://twitter.com/BrightComputing
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
   - subcategory:
     name: Hardware Acceleration
-    items: []
+    items:
+    - item:
+      organization: NVIDIA
+      name: NVIDIA GPU Operator (Hardware Acceleration)
+      homepage_url: https://docs.nvidia.com/datacenter/kubernetes/openshift-on-gpu-install-guide/index.html
+      open_source: true
+      repo_url: https://github.com/NVIDIA/gpu-operator
+      logo: nvidia.svg
+      twitter: https://twitter.com/NVIDIAHPCDev
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+      status:
+      - community
+      allow_duplicate_repo: true
+    - item:
+      organization: CognitiveScale
+      name: CognitiveScale X-RAI (Hardware Acceleration)
+      homepage_url: https://www.cognitivescale.com/cortex/
+      open_source: false
+      repo_url: null
+      logo: cognitivescale.svg
+      twitter: https://twitter.com/cognitivescale
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Weka.io
+      name: Weka.io WekaIO (Hardware Acceleration)
+      homepage_url: https://www.weka.io/
+      open_source: false
+      repo_url: null
+      logo: weka-io.svg
+      twitter: https://twitter.com/wekaio
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
   - subcategory:
     name: Hardware Stacks
-    items: []
+    items:
+    - item:
+      organization: SuperMicro
+      name: SuperMicro (Hardware Stacks)
+      homepage_url: https://www.supermicro.com
+      open_source: false
+      repo_url: null
+      logo: supermicro.svg
+      twitter: https://twitter.com/Supermicro_SMCI
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Penguin
+      name: Penguin (Hardware Stacks)
+      homepage_url: https://www.penguincomputing.com/
+      open_source: false
+      repo_url: null
+      logo: penguin.svg
+      twitter: https://twitter.com/PenguinHPC
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
+    - item:
+      organization: Pure Storage
+      name: Pure Storage (Hardware Stacks)
+      homepage_url: https://www.purestorage.com/
+      open_source: false
+      repo_url: null
+      logo: pure-storage.svg
+      twitter: https://twitter.com/PureStorage
+      crunchbase: https://www.crunchbase.com/organization/no-data
+      components: null
 - category:
   name: Open Data Hub Partner
   subcategories:

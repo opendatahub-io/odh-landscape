@@ -1,5 +1,5 @@
 global:
-  name: AI Landscape
+  name: Open Data Hub Landscape
   short_name: Project
   repo: 'https://gitlab.com/opendatahub/odh-landscape.git'
   website: 'https://opendatahub.io/landscape'
@@ -7,7 +7,7 @@ global:
   company_url: 'https://opendatahub.io/'
   email: contributors-owner@lists.opendatahub.io
   meta:
-    title: AI Landscape
+    title: Open Data Hub Landscape
     fb_admin:
     description: 'Filter and sort by GitHub stars, funding, commits, contributors, hq location, and tweets'
     twitter: '@opendatahubio'
@@ -18,9 +18,9 @@ global:
     cncf_sandbox: false
     companies: Open Data Hub Partner
 twitter:
-  search: landscape.project.org
-  url: 'https://landscape.project.org'
-  text: AI Landscape
+  search: twitter.com/opendatahubio
+  url: 'https://twitter.com/opendatahubio'
+  text: Open Data Hub Landscape
 relation:
   label: Relationship
   url: odh-relation
@@ -82,7 +82,7 @@ membership:
     funding: 'No'
 home:
   header: >
-    <h1>AI Landscape</h1>
+    <h1>Open Data Hub Landscape</h1>
   footer:
 ads: []
 presets:
@@ -161,7 +161,7 @@ big_picture:
         left: 1080
         color: 'rgb(130, 207, 231)'        
 test:
-  header: AI Landscape
+  header: Open Data Hub Landscape
   section: Project Foundation Members
   logo: ibm.svg
 update_server:
