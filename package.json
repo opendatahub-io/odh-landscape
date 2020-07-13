@@ -7,6 +7,7 @@
     "node": ">= 10.5"
   },
   "scripts": {
+    "import-csv": "node import_landscape.js landscape.csv landscape.yml",
     "build:full": "npm run latest; npm config set scripts-prepend-node-path true; export PROJECT_PATH=\"$PWD\"; npm explore interactive-landscape -- npm run build; cp nginx.conf dist",
     "build": "npm config set scripts-prepend-node-path true; export PROJECT_PATH=\"$PWD\"; npm explore interactive-landscape -- npm run s2i-build",
     "postbuild": "cp nginx.conf dist"
@@ -14,7 +15,9 @@
   "author": "cchase",
   "license": "Apache-2.0",
   "dependencies": {
-    "interactive-landscape": "github:cfchase/landscapeapp#dev"
+    "csv-parser": "^2.3.2",
+    "interactive-landscape": "github:cfchase/landscapeapp#odh",
+    "js-yaml": "^3.13.1"
   },
   "keywords": [],
   "repository": {

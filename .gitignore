@@ -56,10 +56,10 @@ preview.json
 landscapeapp
 
 # misc
-.env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
-#/cached_logos
+/.env
+/.env.local
+/.env.development.local
+/.env.test.local
+/.env.production.local
+/cached_logos/*.svg
+/landscape.yml

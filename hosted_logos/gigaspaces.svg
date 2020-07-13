@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="gigaspaces.svg"
+   id="svg39"
+   version="1.1"
+   viewBox="0 0 33.194958 33.166393"
+   height="33.166393"
+   width="33.194958">
+  <metadata
+     id="metadata43">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     inkscape:current-layer="svg39"
+     inkscape:window-maximized="0"
+     inkscape:window-y="132"
+     inkscape:window-x="2177"
+     inkscape:cy="16.218593"
+     inkscape:cx="99.595066"
+     inkscape:zoom="6.5572139"
+     showgrid="false"
+     id="namedview41"
+     inkscape:window-height="876"
+     inkscape:window-width="2020"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff" />
+  <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+  <title
+     id="title2">logo_header@3x</title>
+  <desc
+     id="desc4">Created with Sketch.</desc>
+  <defs
+     id="defs22">
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="scale(0.45488669,2.1983497)"
+       id="linearGradient-1"
+       y2="16.965589"
+       x2="39.724563"
+       y1="8.0950557"
+       x1="39.724563">
+      <stop
+         id="stop6"
+         offset="0%"
+         stop-color="#01BEF1" />
+      <stop
+         id="stop8"
+         offset="100%"
+         stop-color="#006FBA" />
+    </linearGradient>
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="scale(0.48207593,2.074362)"
+       id="linearGradient-2"
+       y2="17.811401"
+       x2="56.772014"
+       y1="9.4411689"
+       x1="56.772014">
+      <stop
+         id="stop11"
+         offset="0%"
+         stop-color="#00C0F3" />
+      <stop
+         id="stop13"
+         offset="100%"
+         stop-color="#0189CB" />
+    </linearGradient>
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="scale(0.64258856,1.5562057)"
+       id="linearGradient-3"
+       y2="20.433996"
+       x2="13.719182"
+       y1="14.154569"
+       x1="13.719182">
+      <stop
+         id="stop16"
+         offset="0%"
+         stop-color="#008DCE" />
+      <stop
+         id="stop18"
+         offset="100%"
+         stop-color="#0071BB" />
+    </linearGradient>
+    <polygon
+       points="0,21.031915 0,10.710835 0,0.38975459 14.79601,0.38975459 14.79601,21.031915 "
+       id="path-4" />
+  </defs>
+  <g
+     transform="translate(-27.904934,-30.781407)"
+     fill-rule="evenodd"
+     fill="none"
+     stroke-width="1"
+     stroke="none"
+     id="Management">
+    <g
+       id="top-plasma">
+      <g
+         transform="translate(27,27.957265)"
+         id="final-white-header">
+        <g
+           transform="translate(0,0.957265)"
+           id="logo_header">
+          <g
+             id="logo-circle">
+            <g
+               id="Group">
+              <rect
+                 rx="2.0175438"
+                 height="10.600962"
+                 width="4.0350876"
+                 y="6.0169158"
+                 x="3.5087719"
+                 transform="rotate(45,5.526316,11.317397)"
+                 fill="#bcbec0"
+                 id="Rectangle-2-Copy-8" />
+              <rect
+                 rx="2.0175438"
+                 height="17.101139"
+                 width="4.0350876"
+                 y="10.248575"
+                 x="5.5263157"
+                 transform="rotate(45,7.54386,18.799145)"
+                 fill="#f7941f"
+                 id="Rectangle-2-Copy-9" />
+              <rect
+                 rx="2.0175438"
+                 height="11.211717"
+                 width="4.0350876"
+                 y="1.7852564"
+                 x="17.017544"
+                 transform="rotate(45,19.035088,7.391115)"
+                 fill="#ec028c"
+                 id="Rectangle-2-Copy-10" />
+              <rect
+                 rx="2.0175438"
+                 height="8.5505695"
+                 width="4.0350876"
+                 y="11.600962"
+                 x="27.807018"
+                 transform="rotate(45,29.824561,15.876246)"
+                 fill="#bcbec0"
+                 id="Rectangle-2-Copy-11" />
+              <rect
+                 style="fill:url(#linearGradient-1)"
+                 rx="2.0175438"
+                 height="19.500534"
+                 width="4.0350876"
+                 y="17.795763"
+                 x="16.052631"
+                 transform="rotate(45,18.070175,27.546029)"
+                 fill="url(#linearGradient-1)"
+                 id="Rectangle-2-Copy-12" />
+              <rect
+                 style="fill:url(#linearGradient-2)"
+                 rx="2.0175438"
+                 height="17.362892"
+                 width="4.0350876"
+                 y="19.584402"
+                 x="25.350878"
+                 transform="rotate(45,27.368421,28.265848)"
+                 fill="url(#linearGradient-2)"
+                 id="Rectangle-2-Copy-13" />
+              <rect
+                 rx="2.0175438"
+                 height="24.561075"
+                 width="4.0350876"
+                 y="-0.0033831908"
+                 x="21.35965"
+                 transform="rotate(45,23.377193,12.277155)"
+                 fill="#bfd72f"
+                 id="Rectangle-2-Copy-14" />
+              <rect
+                 style="fill:url(#linearGradient-3)"
+                 rx="2.0175438"
+                 height="9.7720795"
+                 width="4.0350876"
+                 y="22.027422"
+                 x="6.7982454"
+                 transform="rotate(45,8.815789,26.913462)"
+                 fill="url(#linearGradient-3)"
+                 id="Rectangle-2-Copy-15" />
+              <ellipse
+                 ry="2.094017"
+                 rx="2.1052632"
+                 cy="3.9665241"
+                 cx="12.938597"
+                 transform="rotate(45,12.938596,3.966524)"
+                 fill="#00c0f3"
+                 id="Oval-Copy" />
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
