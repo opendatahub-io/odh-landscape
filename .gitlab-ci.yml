@@ -1,11 +1,17 @@
-image: alpine:latest
+image: node:12
 
 pages:
-  stage: deploy
   script:
-    - echo 'Nothing to do...'
+    - echo $CI_JOB_STAGE
+    - echo $HELLO
+    - npm install
+    - npm run import-csv
+    - npm run build
   artifacts:
     paths:
-      - public
+      - dist
+  cache:
+    paths:
+      - node_modules
   only:
     - master

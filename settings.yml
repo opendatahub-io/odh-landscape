@@ -3,19 +3,18 @@ global:
   short_name: Project
   repo: 'https://gitlab.com/opendatahub/odh-landscape.git'
   website: 'https://opendatahub.io/landscape'
-  short_domain: https://opendatahub.io/landscape
+  short_domain: 'https://opendatahub.io/landscape'
   company_url: 'https://opendatahub.io/'
   email: contributors-owner@lists.opendatahub.io
   meta:
     title: Open Data Hub Landscape
-    fb_admin:
+    fb_admin: null
     description: 'Filter and sort by GitHub stars, funding, commits, contributors, hq location, and tweets'
     twitter: '@opendatahubio'
-    google_site_verification:
-    ms_validate:
+    google_site_verification: null
+    ms_validate: null
   membership: Open Data Hub Partner
   flags:
-    cncf_sandbox: false
     companies: Open Data Hub Partner
 twitter:
   search: twitter.com/opendatahubio
@@ -68,6 +67,44 @@ status:
     - id: false
       label: No Status
       url: 'no'
+frameworks:
+  label: Frameworks
+  url: frameworks
+  values:
+    - id: r
+      label: R
+      tag: R
+    - id: python_and_java_extensions_for_sql_server
+      label: Python and Java extensions for SQL Server
+      tag: Python and Java extensions for SQL Server
+    - id: tensorflow
+      label: Tensorflow
+      tag: Tensorflow
+    - id: pytorch
+      label: PyTorch
+      tag: PyTorch
+    - id: theano
+      label: Theano
+      tag: Theano
+    - id: dask
+      label: Dask
+      tag: Dask
+use_cases:
+  label: Use Cases
+  url: use_cases
+  values:
+    - id: ml_w_jupyter_notebook
+      label: ML w Jupyter Notebook
+      tag: ML w Jupyter Notebook
+    - id: ml_model_serving
+      label: ML Model Serving
+      tag: ML Model Serving
+    - id: data_acquisition_and_preparation
+      label: Data Acquisition and Preparation
+      tag: Data Acquisition and Preparation
+    - id: data_security_and_governance
+      label: Data Security and Governance
+      tag: Data Security and Governance
 membership:
   General:
     name: Project
@@ -81,16 +118,16 @@ membership:
   'false':
     funding: 'No'
 home:
-  header: >
+  header: |
     <h1>Open Data Hub Landscape</h1>
-  footer:
+  footer: null
 ads: []
 presets:
   - url: /license=open-source
     label: Open source projects
   - url: /status=odh
     label: Open Data Hub projects
-  - url: /status=implemented,community,certified,ubi
+  - url: '/status=implemented,community,certified,ubi'
     label: Operator implemented
   - url: /format=card-mode&grouping=no&license=open-source&sort=first-commit
     label: Open source cards by age
@@ -103,7 +140,6 @@ big_picture:
     name: Landscape
     title: AI Landscape
     fullscreen_header: See the interactive landscape at l.project.org
-    method: getGroupedItemsForCncfBigPicture
     size:
       width: 1115
       height: 770
@@ -111,7 +147,6 @@ big_picture:
       width: 1155
       height: 840
     elements:
-      # height = 32 * rows + 20
       - type: HorizontalCategory
         category: AI and Machine Learning Lifecycle
         rows: 6
@@ -159,7 +194,7 @@ big_picture:
         height: 856
         top: 0
         left: 1080
-        color: 'rgb(130, 207, 231)'        
+        color: 'rgb(130, 207, 231)'
 test:
   header: Open Data Hub Landscape
   section: Project Foundation Members

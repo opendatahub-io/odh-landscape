@@ -2,12 +2,15 @@
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 ROOT_DIR="$(dirname "$DIR")"
-SRC_CSV="${ROOT_DIR}/landscape.csv"
-DEST_YML="${ROOT_DIR}/landscape.yml"
 
 
-echo "Importing ${SRC_CSV} and writing ${DEST_YML}"
+echo "Importing landscape.csv and writing landscape.yml"
 
-python3 "${DIR}/import_landscape.py"  "${SRC_CSV}" "${DEST_YML}" && sed -i 's/ null//' "${DEST_YML}" && sed -i "s/''/null/" "${DEST_YML}"
+cd ${DIR}/..
+npm install && npm run import-csv
+rc=$?
+if [[ $rc != 0 ]]; then
+  exit $rc;
+fi
 
 echo "Import complete"
