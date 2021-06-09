@@ -1,11 +1,12 @@
 global:
   name: Open Data Hub Landscape
-  short_name: Project
-  repo: 'https://gitlab.com/opendatahub/odh-landscape.git'
+  short_name: OpenDataHub
+  repo: 'https://github.com/opendatahub-io/odh-landscape'
   website: 'https://opendatahub.io/landscape'
   short_domain: 'https://opendatahub.io/landscape'
   company_url: 'https://opendatahub.io/'
   email: contributors-owner@lists.opendatahub.io
+  skip_crunchbase: true
   meta:
     title: Open Data Hub Landscape
     fb_admin: null

@@ -1,6 +1,6 @@
 {
   "name": "odh-landscape",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Interactive visualization of a technology landscape",
   "engines": {
     "npm": ">=3",
@@ -8,22 +8,20 @@
   },
   "scripts": {
     "import-csv": "node import_landscape.js landscape.csv landscape.yml",
-    "build:full": "npm run latest; npm config set scripts-prepend-node-path true; export PROJECT_PATH=\"$PWD\"; npm explore interactive-landscape -- npm run build; cp nginx.conf dist",
-    "prebuild": "npm config set scripts-prepend-node-path true; export PROJECT_PATH=\"$PWD\"; npm explore interactive-landscape -- npm run prebuild",
-    "quick-build": "npm config set scripts-prepend-node-path true; export PROJECT_PATH=\"$PWD\"; npm explore interactive-landscape -- npm run quick-build",
-    "build": "npm run prebuild && npm run quick-build",
+    "build": "npm config set scripts-prepend-node-path true; export PROJECT_PATH=\"$PWD\"; npm explore interactive-landscape -- npm run build-odh",
+    "dev": "npm config set scripts-prepend-node-path true; export PROJECT_PATH=\"$PWD\"; npm explore interactive-landscape -- npm open:src",
     "postbuild": "cp nginx.conf dist"
   },
   "author": "cchase",
   "license": "Apache-2.0",
   "dependencies": {
     "csv-parser": "^2.3.2",
-    "interactive-landscape": "github:opendatahub-io/landscapeapp#odh",
+    "interactive-landscape": "file:../landscapeapp",
     "js-yaml": "^3.13.1"
   },
   "keywords": [],
   "repository": {
     "type": "git",
-    "url": "https://gitlab.cee.redhat.com/cchase/odh-landscape"
+    "url": "https://github.com/opendatahub-io/odh-landscape"
   }
 }
