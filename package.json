@@ -7,9 +7,9 @@
     "node": ">= 10.5"
   },
   "scripts": {
-    "import-csv": "node import_landscape.js landscape.csv landscape.yml",
+    "import-csv": "node tools/import_landscape.js landscape.csv landscape.yml",
     "build": "npm config set scripts-prepend-node-path true; export PROJECT_PATH=\"$PWD\"; npm explore interactive-landscape -- npm run build-odh",
-    "dev": "npm config set scripts-prepend-node-path true; export PROJECT_PATH=\"$PWD\"; npm explore interactive-landscape -- npm open:src",
+    "dev": "npm config set scripts-prepend-node-path true; export PROJECT_PATH=\"$PWD\"; npm explore interactive-landscape -- npm run open:src",
     "postbuild": "cp nginx.conf dist"
   },
   "author": "cchase",

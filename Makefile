@@ -30,10 +30,3 @@ build:
 .PHONY: dev
 dev:
 	./install/dev.sh
-
-## Push the image to a registry
-.PHONY: push
-dev:
-	./install/push.sh
-
-
