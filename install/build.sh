@@ -8,11 +8,14 @@ echo "Building dist from local"
 
 cd ${DIR}/..
 rm -rf dist lookup.json data.json
+
+if [ ! -d "./cached_logos" ]; then
+  echo "Creating chached_logos..."
+  mkdir cached_logos
+fi
+
 npm install && npm run build
 rc=$?
 if [[ $rc != 0 ]]; then
   exit $rc;
 fi
-
-#s2i build ./dist centos/nginx-114-centos7 ${IMAGE_REPOSITORY}
-#echo "Finished building ${IMAGE_REPOSITORY}"
