@@ -1,5 +1,517 @@
-# THIS FILE IS GENERATED AUTOMATICALLY!
 landscape:
+  - category:
+    name: AI Solutions
+    subcategories:
+      - subcategory:
+        name: Natural Language Processing
+        items:
+          - item:
+            organization: SAS
+            name: SAS Viya (Natural Language Processing)
+            homepage_url: https://www.sas.com/en_us/software/viya.html
+            open_source: false
+            repo_url: null
+            logo: sas-viya.svg
+            twitter: https://twitter.com/SASsoftware
+            crunchbase: https://www.crunchbase.com/organization/no-data
+            components: null
+            use_cases: ML w Jupyter Notebook, Data Acquisition and Preparation, ML Model Serving, Data Security and Governance
+            use_cases_filter:
+              - ml_w_jupyter_notebook
+              - data_acquisition_and_preparation
+              - ml_model_serving
+              - data_security_and_governance
+            image_data:
+              fileName: sas-viya-natural-language-processing.svg
+              hash: mcYCxkKuThGtAt2C7Z8OawVsirvqkw8lK56esZ0yTjU=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2021-05-14T09:54:39.000Z
+          - item:
+            organization: Veriph.ai
+            name: Veriph.ai (Natural Language Processing)
+            homepage_url: http://veriph.ai
+            open_source: false
+            repo_url: null
+            logo: veriphai.svg
+            twitter: https://twitter.com/veriph_ai
+            crunchbase: https://www.crunchbase.com/organization/no-data
+            components: null
+            frameworks: deep learning AI verification tools
+            frameworks_filter:
+              - deep_learning_ai_verification_tools
+            image_data:
+              fileName: veriph-ai-natural-language-processing.svg
+              hash: jWhX01F1wiy0lX2QhVSKiFM4oYppz9pQdUvZnnl6y50=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-08-12T22:14:06.000Z
+          - item:
+            organization: Neural Magic
+            name: Neural Magic Inferece Engine (Natural Language Processing)
+            homepage_url: https://neuralmagic.com/
+            open_source: false
+            repo_url: null
+            logo: neuralmagic.svg
+            twitter: null
+            crunchbase: https://www.crunchbase.com/organization/no-data
+            components: null
+            use_cases: ML Model Serving
+            use_cases_filter:
+              - ml_model_serving
+            image_data:
+              fileName: neural-magic-inferece-engine-natural-language-processing.svg
+              hash: LCHRqNUONf4dnaJAXeQ/bAao49s3sZqPwo7iIMFUsKs=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            organization: Run.AI
+            name: Run.AI Run:AI Platform (Natural Language Processing)
+            homepage_url: https://www.run.ai/platform/
+            open_source: false
+            repo_url: null
+            logo: runai.svg
+            twitter: null
+            crunchbase: https://www.crunchbase.com/organization/no-data
+            components: null
+            status:
+              - certified
+              - ubi
+            image_data:
+              fileName: run-ai-run-ai-platform-natural-language-processing.svg
+              hash: Ktk31YKnh7KC7gy1FfBbzvLLOBhy842SAslvW7G8ri8=
+            best_practice_data:
+              badge: false
+              percentage: null
+      - subcategory:
+        name: Speech & Translation
+        items:
+          - item:
+            organization: NVIDIA
+            name: NVIDIA GPU Operator (Speech & Translation)
+            homepage_url: https://docs.nvidia.com/datacenter/kubernetes/openshift-on-gpu-install-guide/index.html
+            open_source: true
+            repo_url: https://github.com/NVIDIA/gpu-operator
+            logo: nvidia.svg
+            twitter: https://twitter.com/NVIDIAHPCDev
+            crunchbase: https://www.crunchbase.com/organization/no-data
+            components: null
+            status:
+              - community
+              - certified
+              - ubi
+            allow_duplicate_repo: true
+            github_data:
+              languages:
+                - name: Go
+                  value: 117776
+                  color: '#00ADD8'
+                - name: Makefile
+                  value: 5517
+                  color: '#427819'
+                - name: Shell
+                  value: 3781
+                  color: '#89e051'
+                - name: Mustache
+                  value: 3730
+                - name: Dockerfile
+                  value: 2203
+                  color: '#384d54'
+                - name: HCL
+                  value: 59
+              contributions: 3;0;2;0;0;1;0;0;3;0;0;1;0;0;0;2;0;0;2;5;16;17;11;5;5;2;3;9;10;2;3;0;0;2;12;1;11;1;12;8;13;4;6;6;13;4;5;1;3;13;3;8
+              firstWeek: 2020-05-17Z
+              stars: 333
+              license: Apache License 2.0
+              description: NVIDIA GPU Operator creates/configures/manages GPUs atop Kubernetes
+              latest_commit_date: '2021-05-11T15:45:34Z'
+              latest_commit_link: /NVIDIA/gpu-operator/commit/c91af8cab8c69744972cb9e2ea623f3e334762e6
+              release_date: '2021-03-12T16:46:59Z'
+              release_link: https://github.com/NVIDIA/gpu-operator/releases
+              contributors_count: 17
+              contributors_link: https://github.com/NVIDIA/gpu-operator/graphs/contributors
+            github_start_commit_data:
+              start_commit_link: /NVIDIA/gpu-operator/commit/95c29757724662e98517eaacfb5961c6bd80beaa
+              start_date: '2019-02-27T00:21:25Z'
+            image_data:
+              fileName: nvidia-gpu-operator-speech-translation.svg
+              hash: oexU5oK5XAIo8KWriaM6PznvG6ByYNQhXO2+kRZn/vw=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2021-05-06T18:00:00.000Z
+          - item:
+            organization: SAS
+            name: SAS Viya (Speech & Translation)
+            homepage_url: https://www.sas.com/en_us/software/viya.html
+            open_source: false
+            repo_url: null
+            logo: sas-viya.svg
+            twitter: https://twitter.com/SASsoftware
+            crunchbase: https://www.crunchbase.com/organization/no-data
+            components: null
+            use_cases: ML w Jupyter Notebook, Data Acquisition and Preparation, ML Model Serving, Data Security and Governance
+            use_cases_filter:
+              - ml_w_jupyter_notebook
+              - data_acquisition_and_preparation
+              - ml_model_serving
+              - data_security_and_governance
+            image_data:
+              fileName: sas-viya-speech-translation.svg
+              hash: mcYCxkKuThGtAt2C7Z8OawVsirvqkw8lK56esZ0yTjU=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2021-05-14T09:54:39.000Z
+          - item:
+            organization: Run.AI
+            name: Run.AI Run:AI Platform (Speech & Translation)
+            homepage_url: https://www.run.ai/platform/
+            open_source: false
+            repo_url: null
+            logo: runai.svg
+            twitter: null
+            crunchbase: https://www.crunchbase.com/organization/no-data
+            components: null
+            status:
+              - certified
+              - ubi
+            image_data:
+              fileName: run-ai-run-ai-platform-speech-translation.svg
+              hash: Ktk31YKnh7KC7gy1FfBbzvLLOBhy842SAslvW7G8ri8=
+            best_practice_data:
+              badge: false
+              percentage: null
+      - subcategory:
+        name: Decisions and Recommendations
+        items:
+          - item:
+            organization: SAS
+            name: SAS Viya (Decisions and Recommendations)
+            homepage_url: https://www.sas.com/en_us/software/viya.html
+            open_source: false
+            repo_url: null
+            logo: sas-viya.svg
+            twitter: https://twitter.com/SASsoftware
+            crunchbase: https://www.crunchbase.com/organization/no-data
+            components: null
+            use_cases: ML w Jupyter Notebook, Data Acquisition and Preparation, ML Model Serving, Data Security and Governance
+            use_cases_filter:
+              - ml_w_jupyter_notebook
+              - data_acquisition_and_preparation
+              - ml_model_serving
+              - data_security_and_governance
+            image_data:
+              fileName: sas-viya-decisions-and-recommendations.svg
+              hash: mcYCxkKuThGtAt2C7Z8OawVsirvqkw8lK56esZ0yTjU=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2021-05-14T09:54:39.000Z
+      - subcategory:
+        name: Image & Visual Analysis
+        items:
+          - item:
+            organization: Veriph.ai
+            name: Veriph.ai (Image & Visual Analysis)
+            homepage_url: http://veriph.ai
+            open_source: false
+            repo_url: null
+            logo: veriphai.svg
+            twitter: https://twitter.com/veriph_ai
+            crunchbase: https://www.crunchbase.com/organization/no-data
+            components: null
+            frameworks: deep learning AI verification tools
+            frameworks_filter:
+              - deep_learning_ai_verification_tools
+            image_data:
+              fileName: veriph-ai-image-visual-analysis.svg
+              hash: jWhX01F1wiy0lX2QhVSKiFM4oYppz9pQdUvZnnl6y50=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-08-12T22:14:06.000Z
+          - item:
+            organization: Neural Magic
+            name: Neural Magic Inferece Engine (Image & Visual Analysis)
+            homepage_url: https://neuralmagic.com/
+            open_source: false
+            repo_url: null
+            logo: neuralmagic.svg
+            twitter: null
+            crunchbase: https://www.crunchbase.com/organization/no-data
+            components: null
+            use_cases: ML Model Serving
+            use_cases_filter:
+              - ml_model_serving
+            image_data:
+              fileName: neural-magic-inferece-engine-image-visual-analysis.svg
+              hash: LCHRqNUONf4dnaJAXeQ/bAao49s3sZqPwo7iIMFUsKs=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            organization: OpenVINO
+            name: OpenVINO Toolkit (Image & Visual Analysis)
+            homepage_url: https://www.intel.com/content/www/us/en/developer/tools/openvino-toolkit/overview.html
+            open_source: false
+            repo_url: https://github.com/openvinotoolkit/openvino
+            logo: intel.svg
+            twitter: null
+            crunchbase: https://www.crunchbase.com/organization/no-data
+            components: null
+            status:
+              - certified
+              - ubi
+            use_cases: ML w Jupyter Notebook, ML Model Serving
+            use_cases_filter:
+              - ml_w_jupyter_notebook
+              - ml_model_serving
+            allow_duplicate_repo: true
+            github_data:
+              languages:
+                - name: C++
+                  value: 35481058
+                  color: '#f34b7d'
+                - name: Python
+                  value: 9341675
+                  color: '#3572A5'
+                - name: CMake
+                  value: 503796
+                - name: C
+                  value: 192989
+                  color: '#555555'
+                - name: Cython
+                  value: 83869
+                - name: Shell
+                  value: 79369
+                  color: '#89e051'
+                - name: Batchfile
+                  value: 33913
+                  color: '#C1F12E'
+                - name: HTML
+                  value: 20925
+                  color: '#e34c26'
+                - name: CSS
+                  value: 12347
+                  color: '#563d7c'
+                - name: JavaScript
+                  value: 7375
+                  color: '#f1e05a'
+                - name: Dockerfile
+                  value: 2046
+                  color: '#384d54'
+              contributions: >-
+                101;68;108;81;65;40;49;43;43;5;27;74;74;64;103;87;56;89;64;77;61;87;60;58;58;83;59;64;99;100;96;103;58;72;72;64;51;48;67;57;60;52;63;41;58;70;57;73;69;46;83;82
+              firstWeek: 2020-11-01Z
+              stars: 2560
+              license: Apache License 2.0
+              description: OpenVINO™ Toolkit repository
+              latest_commit_date: '2021-10-27T07:20:31Z'
+              latest_commit_link: /openvinotoolkit/openvino/commit/05074efb9b17acde74adfb997350b74f388f565b
+              release_date: '2021-09-09T21:22:45Z'
+              release_link: https://github.com/openvinotoolkit/openvino/releases
+              contributors_count: 274
+              contributors_link: https://github.com/openvinotoolkit/openvino/graphs/contributors
+            repos:
+              - url: https://github.com/openvinotoolkit/openvino
+                stars: 2560
+            github_start_commit_data:
+              start_commit_link: /openvinotoolkit/openvino/commit/c37d4661a27afb408a45f7752acea968032afcc0
+              start_date: '2018-10-15T19:19:27Z'
+            image_data:
+              fileName: open-vino-toolkit-image-visual-analysis.svg
+              hash: j4j53LuTyU5xTDGQHm1x7kaWxytDpn0ZcqUgwJUAtII=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            organization: AI-Kit
+            name: AI-Kit One API AI Analytics Toolkit (Image & Visual Analysis)
+            homepage_url: https://www.intel.com/content/www/us/en/developer/tools/oneapi/ai-analytics-toolkit.html#gs.e63m50
+            open_source: false
+            repo_url: https://github.com/oneapi-src/oneDNN
+            logo: intel.svg
+            twitter: null
+            crunchbase: https://www.crunchbase.com/organization/no-data
+            components: null
+            status:
+              - certified
+              - ubi
+            use_cases: ML w Jupyter Notebook
+            use_cases_filter:
+              - ml_w_jupyter_notebook
+            allow_duplicate_repo: true
+            github_data:
+              languages:
+                - name: C++
+                  value: 22978339
+                  color: '#f34b7d'
+                - name: C
+                  value: 2797421
+                  color: '#555555'
+                - name: CMake
+                  value: 223827
+                - name: Python
+                  value: 62051
+                  color: '#3572A5'
+                - name: Shell
+                  value: 13043
+                  color: '#89e051'
+                - name: Batchfile
+                  value: 3670
+                  color: '#C1F12E'
+                - name: Makefile
+                  value: 1407
+                  color: '#427819'
+              contributions: >-
+                60;66;44;41;30;50;42;33;15;28;61;55;43;65;48;37;70;35;44;60;44;55;33;38;59;44;39;54;43;42;36;41;36;48;45;36;35;22;38;36;28;40;44;29;41;45;60;28;31;24;7;10
+              firstWeek: 2020-11-01Z
+              stars: 2549
+              license: Apache License 2.0
+              description: oneAPI Deep Neural Network Library (oneDNN)
+              latest_commit_date: '2021-10-23T02:06:36Z'
+              latest_commit_link: /oneapi-src/oneDNN/commit/fd51f4d98941483b563f2acdc1c67f2f182c6308
+              release_date: '2021-10-20T22:50:16Z'
+              release_link: https://github.com/oneapi-src/oneDNN/releases
+              contributors_count: 176
+              contributors_link: https://github.com/oneapi-src/oneDNN/graphs/contributors
+            repos:
+              - url: https://github.com/oneapi-src/oneDNN
+                stars: 2549
+            github_start_commit_data:
+              start_commit_link: /oneapi-src/oneDNN/commit/87fae9f93a4229647ec198d0a8cb537db8626f7e
+              start_date: '2016-07-02T01:07:53Z'
+            image_data:
+              fileName: ai-kit-one-api-ai-analytics-toolkit-image-visual-analysis.svg
+              hash: j4j53LuTyU5xTDGQHm1x7kaWxytDpn0ZcqUgwJUAtII=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            organization: Run.AI
+            name: Run.AI Run:AI Platform (Image & Visual Analysis)
+            homepage_url: https://www.run.ai/platform/
+            open_source: false
+            repo_url: null
+            logo: runai.svg
+            twitter: null
+            crunchbase: https://www.crunchbase.com/organization/no-data
+            components: null
+            status:
+              - certified
+              - ubi
+            image_data:
+              fileName: run-ai-run-ai-platform-image-visual-analysis.svg
+              hash: Ktk31YKnh7KC7gy1FfBbzvLLOBhy842SAslvW7G8ri8=
+            best_practice_data:
+              badge: false
+              percentage: null
+      - subcategory:
+        name: Forecasting
+        items:
+          - item:
+            organization: SAS
+            name: SAS Viya (Forecasting)
+            homepage_url: https://www.sas.com/en_us/software/viya.html
+            open_source: false
+            repo_url: null
+            logo: sas-viya.svg
+            twitter: https://twitter.com/SASsoftware
+            crunchbase: https://www.crunchbase.com/organization/no-data
+            components: null
+            use_cases: ML w Jupyter Notebook, Data Acquisition and Preparation, ML Model Serving, Data Security and Governance
+            use_cases_filter:
+              - ml_w_jupyter_notebook
+              - data_acquisition_and_preparation
+              - ml_model_serving
+              - data_security_and_governance
+            image_data:
+              fileName: sas-viya-forecasting.svg
+              hash: mcYCxkKuThGtAt2C7Z8OawVsirvqkw8lK56esZ0yTjU=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2021-05-14T09:54:39.000Z
+      - subcategory:
+        name: Search
+        items:
+          - item:
+            organization: Preset
+            name: Preset (Search)
+            homepage_url: https://preset.io
+            open_source: true
+            repo_url: null
+            logo: preset.svg
+            twitter: null
+            crunchbase: https://www.crunchbase.com/organization/no-data
+            components: null
+            status:
+              - odh
+            use_cases: Data Acquisition and Preparation
+            use_cases_filter:
+              - data_acquisition_and_preparation
+            image_data:
+              fileName: preset-search.svg
+              hash: 9EZF1YHhc4Ss1SfU9U13Cd6RLHw1VYqrTKANTcyE6KI=
+            best_practice_data:
+              badge: false
+              percentage: null
+      - subcategory:
+        name: Document Extraction
+        items:
+          - item:
+            organization: SAS
+            name: SAS Viya (Document Extraction)
+            homepage_url: https://www.sas.com/en_us/software/viya.html
+            open_source: false
+            repo_url: null
+            logo: sas-viya.svg
+            twitter: https://twitter.com/SASsoftware
+            crunchbase: https://www.crunchbase.com/organization/no-data
+            components: null
+            use_cases: ML w Jupyter Notebook, Data Acquisition and Preparation, ML Model Serving, Data Security and Governance
+            use_cases_filter:
+              - ml_w_jupyter_notebook
+              - data_acquisition_and_preparation
+              - ml_model_serving
+              - data_security_and_governance
+            image_data:
+              fileName: sas-viya-document-extraction.svg
+              hash: mcYCxkKuThGtAt2C7Z8OawVsirvqkw8lK56esZ0yTjU=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2021-05-14T09:54:39.000Z
+          - item:
+            organization: TIBCO
+            name: TIBCO Data Virtualization (Document Extraction)
+            homepage_url: https://www.tibco.com/products/data-virtualization
+            open_source: false
+            repo_url: null
+            logo: tibco.svg
+            twitter: https://twitter.com/tibco
+            crunchbase: https://www.crunchbase.com/organization/no-data
+            components: null
+            image_data:
+              fileName: tibco-data-virtualization-document-extraction.svg
+              hash: PKTJYUYfvSzlMRWnIwdXHu1XeBzYq+ekiTwD84m2H34=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2021-05-13T21:30:01.000Z
   - category:
     name: AI and Machine Learning Lifecycle
     subcategories:
@@ -728,6 +1240,69 @@ landscape:
               percentage: 16
             twitter_data:
               latest_tweet_date: 2021-04-27T19:06:04.000Z
+          - item:
+            organization: AI-Kit
+            name: AI-Kit One API AI Analytics Toolkit (Experimentation & Parameter Tuning)
+            homepage_url: https://www.intel.com/content/www/us/en/developer/tools/oneapi/ai-analytics-toolkit.html#gs.e63m50
+            open_source: false
+            repo_url: https://github.com/oneapi-src/oneDNN
+            logo: intel.svg
+            twitter: null
+            crunchbase: https://www.crunchbase.com/organization/no-data
+            components: null
+            status:
+              - certified
+              - ubi
+            use_cases: ML w Jupyter Notebook
+            use_cases_filter:
+              - ml_w_jupyter_notebook
+            allow_duplicate_repo: true
+            github_data:
+              languages:
+                - name: C++
+                  value: 22978339
+                  color: '#f34b7d'
+                - name: C
+                  value: 2797421
+                  color: '#555555'
+                - name: CMake
+                  value: 223827
+                - name: Python
+                  value: 62051
+                  color: '#3572A5'
+                - name: Shell
+                  value: 13043
+                  color: '#89e051'
+                - name: Batchfile
+                  value: 3670
+                  color: '#C1F12E'
+                - name: Makefile
+                  value: 1407
+                  color: '#427819'
+              contributions: >-
+                60;66;44;41;30;50;42;33;15;28;61;55;43;65;48;37;70;35;44;60;44;55;33;38;59;44;39;54;43;42;36;41;36;48;45;36;35;22;38;36;28;40;44;29;41;45;60;28;31;24;7;10
+              firstWeek: 2020-11-01Z
+              stars: 2549
+              license: Apache License 2.0
+              description: oneAPI Deep Neural Network Library (oneDNN)
+              latest_commit_date: '2021-10-23T02:06:36Z'
+              latest_commit_link: /oneapi-src/oneDNN/commit/fd51f4d98941483b563f2acdc1c67f2f182c6308
+              release_date: '2021-10-20T22:50:16Z'
+              release_link: https://github.com/oneapi-src/oneDNN/releases
+              contributors_count: 176
+              contributors_link: https://github.com/oneapi-src/oneDNN/graphs/contributors
+            repos:
+              - url: https://github.com/oneapi-src/oneDNN
+                stars: 2549
+            github_start_commit_data:
+              start_commit_link: /oneapi-src/oneDNN/commit/87fae9f93a4229647ec198d0a8cb537db8626f7e
+              start_date: '2016-07-02T01:07:53Z'
+            image_data:
+              fileName: ai-kit-one-api-ai-analytics-toolkit-experimentation-parameter-tuning.svg
+              hash: j4j53LuTyU5xTDGQHm1x7kaWxytDpn0ZcqUgwJUAtII=
+            best_practice_data:
+              badge: false
+              percentage: null
       - subcategory:
         name: Model Serving
         items:
@@ -1667,6 +2242,81 @@ landscape:
               percentage: 16
             twitter_data:
               latest_tweet_date: 2021-04-27T19:06:04.000Z
+          - item:
+            organization: OpenVINO
+            name: OpenVINO Toolkit (Model Serving)
+            homepage_url: https://www.intel.com/content/www/us/en/developer/tools/openvino-toolkit/overview.html
+            open_source: false
+            repo_url: https://github.com/openvinotoolkit/openvino
+            logo: intel.svg
+            twitter: null
+            crunchbase: https://www.crunchbase.com/organization/no-data
+            components: null
+            status:
+              - certified
+              - ubi
+            use_cases: ML w Jupyter Notebook, ML Model Serving
+            use_cases_filter:
+              - ml_w_jupyter_notebook
+              - ml_model_serving
+            allow_duplicate_repo: true
+            github_data:
+              languages:
+                - name: C++
+                  value: 35481058
+                  color: '#f34b7d'
+                - name: Python
+                  value: 9341675
+                  color: '#3572A5'
+                - name: CMake
+                  value: 503796
+                - name: C
+                  value: 192989
+                  color: '#555555'
+                - name: Cython
+                  value: 83869
+                - name: Shell
+                  value: 79369
+                  color: '#89e051'
+                - name: Batchfile
+                  value: 33913
+                  color: '#C1F12E'
+                - name: HTML
+                  value: 20925
+                  color: '#e34c26'
+                - name: CSS
+                  value: 12347
+                  color: '#563d7c'
+                - name: JavaScript
+                  value: 7375
+                  color: '#f1e05a'
+                - name: Dockerfile
+                  value: 2046
+                  color: '#384d54'
+              contributions: >-
+                101;68;108;81;65;40;49;43;43;5;27;74;74;64;103;87;56;89;64;77;61;87;60;58;58;83;59;64;99;100;96;103;58;72;72;64;51;48;67;57;60;52;63;41;58;70;57;73;69;46;83;82
+              firstWeek: 2020-11-01Z
+              stars: 2560
+              license: Apache License 2.0
+              description: OpenVINO™ Toolkit repository
+              latest_commit_date: '2021-10-27T07:20:31Z'
+              latest_commit_link: /openvinotoolkit/openvino/commit/05074efb9b17acde74adfb997350b74f388f565b
+              release_date: '2021-09-09T21:22:45Z'
+              release_link: https://github.com/openvinotoolkit/openvino/releases
+              contributors_count: 274
+              contributors_link: https://github.com/openvinotoolkit/openvino/graphs/contributors
+            repos:
+              - url: https://github.com/openvinotoolkit/openvino
+                stars: 2560
+            github_start_commit_data:
+              start_commit_link: /openvinotoolkit/openvino/commit/c37d4661a27afb408a45f7752acea968032afcc0
+              start_date: '2018-10-15T19:19:27Z'
+            image_data:
+              fileName: open-vino-toolkit-model-serving.svg
+              hash: j4j53LuTyU5xTDGQHm1x7kaWxytDpn0ZcqUgwJUAtII=
+            best_practice_data:
+              badge: false
+              percentage: null
       - subcategory:
         name: Lineage
         items:
@@ -1788,6 +2438,91 @@ landscape:
               percentage: null
             twitter_data:
               latest_tweet_date: 2021-05-12T07:21:51.000Z
+          - item:
+            organization: Pachyderm
+            name: Pachyderm Enterprise (Lineage)
+            homepage_url: https://www.pachyderm.io/enterprise.html
+            open_source: false
+            repo_url: null
+            logo: pachyderm.svg
+            twitter: https://twitter.com/pachyderminc
+            crunchbase: https://www.crunchbase.com/organization/no-data
+            components: null
+            status:
+              - certified
+            image_data:
+              fileName: pachyderm-enterprise-lineage.svg
+              hash: BhbDEJcI6LsIt/m56CIoyY2flsp35ghG15LjQJW43/8=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2021-05-13T18:10:57.000Z
+          - item:
+            organization: Pachyderm
+            name: Pachyderm Open Source (Lineage)
+            homepage_url: https://www.pachyderm.io/open_source.html
+            open_source: true
+            repo_url: https://github.com/pachyderm/pachyderm
+            logo: pachyderm.svg
+            twitter: https://twitter.com/pachyderminc
+            crunchbase: https://www.crunchbase.com/organization/no-data
+            components: null
+            status:
+              - certified
+            allow_duplicate_repo: true
+            github_data:
+              languages:
+                - name: Go
+                  value: 3544858
+                  color: '#00ADD8'
+                - name: Shell
+                  value: 87096
+                  color: '#89e051'
+                - name: Makefile
+                  value: 23554
+                  color: '#427819'
+                - name: Jupyter Notebook
+                  value: 21217
+                  color: '#DA5B0B'
+                - name: Python
+                  value: 21103
+                  color: '#3572A5'
+                - name: HTML
+                  value: 6082
+                  color: '#e34c26'
+                - name: CSS
+                  value: 4343
+                  color: '#563d7c'
+                - name: Dockerfile
+                  value: 3607
+                  color: '#384d54'
+                - name: Roff
+                  value: 797
+                  color: '#ecdebe'
+              contributions: >-
+                63;45;46;40;86;65;62;47;73;104;110;45;42;32;30;26;19;17;29;34;23;31;51;61;56;84;113;37;73;109;43;28;0;41;27;31;24;15;26;21;11;15;30;16;13;36;37;32;44;27;36;49
+              firstWeek: 2020-05-17Z
+              stars: 5030
+              license: Other
+              description: Reproducible Data Science at Scale!
+              latest_commit_date: '2021-05-13T21:53:31Z'
+              latest_commit_link: /pachyderm/pachyderm/commit/efaf29acd66cc685fcdb4ecabe1d1240b279cb33
+              release_date: '2021-05-13T21:03:09Z'
+              release_link: https://github.com/pachyderm/pachyderm/releases
+              contributors_count: 127
+              contributors_link: https://github.com/pachyderm/pachyderm/graphs/contributors
+            github_start_commit_data:
+              start_commit_link: /pachyderm/pachyderm/commit/11eb4c6e1945beb1e6ce3e878ed2cb6c24ee8bf1
+              start_date: '2014-09-04T07:50:02Z'
+            image_data:
+              fileName: pachyderm-open-source-lineage.svg
+              hash: BhbDEJcI6LsIt/m56CIoyY2flsp35ghG15LjQJW43/8=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2021-05-13T18:10:57.000Z
           - item:
             organization: RapidMiner
             name: RapidMiner (Lineage)
@@ -3121,6 +3856,144 @@ landscape:
               percentage: null
             twitter_data:
               latest_tweet_date: 2021-02-16T15:14:32.000Z
+          - item:
+            organization: OpenVINO
+            name: OpenVINO Toolkit (AI/ML Modules and Extensions)
+            homepage_url: https://www.intel.com/content/www/us/en/developer/tools/openvino-toolkit/overview.html
+            open_source: false
+            repo_url: https://github.com/openvinotoolkit/openvino
+            logo: intel.svg
+            twitter: null
+            crunchbase: https://www.crunchbase.com/organization/no-data
+            components: null
+            status:
+              - certified
+              - ubi
+            use_cases: ML w Jupyter Notebook, ML Model Serving
+            use_cases_filter:
+              - ml_w_jupyter_notebook
+              - ml_model_serving
+            allow_duplicate_repo: true
+            github_data:
+              languages:
+                - name: C++
+                  value: 35481058
+                  color: '#f34b7d'
+                - name: Python
+                  value: 9341675
+                  color: '#3572A5'
+                - name: CMake
+                  value: 503796
+                - name: C
+                  value: 192989
+                  color: '#555555'
+                - name: Cython
+                  value: 83869
+                - name: Shell
+                  value: 79369
+                  color: '#89e051'
+                - name: Batchfile
+                  value: 33913
+                  color: '#C1F12E'
+                - name: HTML
+                  value: 20925
+                  color: '#e34c26'
+                - name: CSS
+                  value: 12347
+                  color: '#563d7c'
+                - name: JavaScript
+                  value: 7375
+                  color: '#f1e05a'
+                - name: Dockerfile
+                  value: 2046
+                  color: '#384d54'
+              contributions: >-
+                101;68;108;81;65;40;49;43;43;5;27;74;74;64;103;87;56;89;64;77;61;87;60;58;58;83;59;64;99;100;96;103;58;72;72;64;51;48;67;57;60;52;63;41;58;70;57;73;69;46;83;82
+              firstWeek: 2020-11-01Z
+              stars: 2560
+              license: Apache License 2.0
+              description: OpenVINO™ Toolkit repository
+              latest_commit_date: '2021-10-27T07:20:31Z'
+              latest_commit_link: /openvinotoolkit/openvino/commit/05074efb9b17acde74adfb997350b74f388f565b
+              release_date: '2021-09-09T21:22:45Z'
+              release_link: https://github.com/openvinotoolkit/openvino/releases
+              contributors_count: 274
+              contributors_link: https://github.com/openvinotoolkit/openvino/graphs/contributors
+            repos:
+              - url: https://github.com/openvinotoolkit/openvino
+                stars: 2560
+            github_start_commit_data:
+              start_commit_link: /openvinotoolkit/openvino/commit/c37d4661a27afb408a45f7752acea968032afcc0
+              start_date: '2018-10-15T19:19:27Z'
+            image_data:
+              fileName: open-vino-toolkit-ai-ml-modules-and-extensions.svg
+              hash: j4j53LuTyU5xTDGQHm1x7kaWxytDpn0ZcqUgwJUAtII=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            organization: AI-Kit
+            name: AI-Kit One API AI Analytics Toolkit (AI/ML Modules and Extensions)
+            homepage_url: https://www.intel.com/content/www/us/en/developer/tools/oneapi/ai-analytics-toolkit.html#gs.e63m50
+            open_source: false
+            repo_url: https://github.com/oneapi-src/oneDNN
+            logo: intel.svg
+            twitter: null
+            crunchbase: https://www.crunchbase.com/organization/no-data
+            components: null
+            status:
+              - certified
+              - ubi
+            use_cases: ML w Jupyter Notebook
+            use_cases_filter:
+              - ml_w_jupyter_notebook
+            allow_duplicate_repo: true
+            github_data:
+              languages:
+                - name: C++
+                  value: 22978339
+                  color: '#f34b7d'
+                - name: C
+                  value: 2797421
+                  color: '#555555'
+                - name: CMake
+                  value: 223827
+                - name: Python
+                  value: 62051
+                  color: '#3572A5'
+                - name: Shell
+                  value: 13043
+                  color: '#89e051'
+                - name: Batchfile
+                  value: 3670
+                  color: '#C1F12E'
+                - name: Makefile
+                  value: 1407
+                  color: '#427819'
+              contributions: >-
+                60;66;44;41;30;50;42;33;15;28;61;55;43;65;48;37;70;35;44;60;44;55;33;38;59;44;39;54;43;42;36;41;36;48;45;36;35;22;38;36;28;40;44;29;41;45;60;28;31;24;7;10
+              firstWeek: 2020-11-01Z
+              stars: 2549
+              license: Apache License 2.0
+              description: oneAPI Deep Neural Network Library (oneDNN)
+              latest_commit_date: '2021-10-23T02:06:36Z'
+              latest_commit_link: /oneapi-src/oneDNN/commit/fd51f4d98941483b563f2acdc1c67f2f182c6308
+              release_date: '2021-10-20T22:50:16Z'
+              release_link: https://github.com/oneapi-src/oneDNN/releases
+              contributors_count: 176
+              contributors_link: https://github.com/oneapi-src/oneDNN/graphs/contributors
+            repos:
+              - url: https://github.com/oneapi-src/oneDNN
+                stars: 2549
+            github_start_commit_data:
+              start_commit_link: /oneapi-src/oneDNN/commit/87fae9f93a4229647ec198d0a8cb537db8626f7e
+              start_date: '2016-07-02T01:07:53Z'
+            image_data:
+              fileName: ai-kit-one-api-ai-analytics-toolkit-ai-ml-modules-and-extensions.svg
+              hash: j4j53LuTyU5xTDGQHm1x7kaWxytDpn0ZcqUgwJUAtII=
+            best_practice_data:
+              badge: false
+              percentage: null
   - category:
     name: Data Analysis
     subcategories:
@@ -4326,8 +5199,75 @@ landscape:
             twitter: https://twitter.com/pachyderminc
             crunchbase: https://www.crunchbase.com/organization/no-data
             components: null
+            status:
+              - certified
             image_data:
               fileName: pachyderm-enterprise-data-exploration.svg
+              hash: BhbDEJcI6LsIt/m56CIoyY2flsp35ghG15LjQJW43/8=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2021-05-13T18:10:57.000Z
+          - item:
+            organization: Pachyderm
+            name: Pachyderm Open Source (Data Exploration)
+            homepage_url: https://www.pachyderm.io/open_source.html
+            open_source: true
+            repo_url: https://github.com/pachyderm/pachyderm
+            logo: pachyderm.svg
+            twitter: https://twitter.com/pachyderminc
+            crunchbase: https://www.crunchbase.com/organization/no-data
+            components: null
+            status:
+              - certified
+            allow_duplicate_repo: true
+            github_data:
+              languages:
+                - name: Go
+                  value: 3544858
+                  color: '#00ADD8'
+                - name: Shell
+                  value: 87096
+                  color: '#89e051'
+                - name: Makefile
+                  value: 23554
+                  color: '#427819'
+                - name: Jupyter Notebook
+                  value: 21217
+                  color: '#DA5B0B'
+                - name: Python
+                  value: 21103
+                  color: '#3572A5'
+                - name: HTML
+                  value: 6082
+                  color: '#e34c26'
+                - name: CSS
+                  value: 4343
+                  color: '#563d7c'
+                - name: Dockerfile
+                  value: 3607
+                  color: '#384d54'
+                - name: Roff
+                  value: 797
+                  color: '#ecdebe'
+              contributions: >-
+                63;45;46;40;86;65;62;47;73;104;110;45;42;32;30;26;19;17;29;34;23;31;51;61;56;84;113;37;73;109;43;28;0;41;27;31;24;15;26;21;11;15;30;16;13;36;37;32;44;27;36;49
+              firstWeek: 2020-05-17Z
+              stars: 5030
+              license: Other
+              description: Reproducible Data Science at Scale!
+              latest_commit_date: '2021-05-13T21:53:31Z'
+              latest_commit_link: /pachyderm/pachyderm/commit/efaf29acd66cc685fcdb4ecabe1d1240b279cb33
+              release_date: '2021-05-13T21:03:09Z'
+              release_link: https://github.com/pachyderm/pachyderm/releases
+              contributors_count: 127
+              contributors_link: https://github.com/pachyderm/pachyderm/graphs/contributors
+            github_start_commit_data:
+              start_commit_link: /pachyderm/pachyderm/commit/11eb4c6e1945beb1e6ce3e878ed2cb6c24ee8bf1
+              start_date: '2014-09-04T07:50:02Z'
+            image_data:
+              fileName: pachyderm-open-source-data-exploration.svg
               hash: BhbDEJcI6LsIt/m56CIoyY2flsp35ghG15LjQJW43/8=
             best_practice_data:
               badge: false
@@ -4413,7 +5353,7 @@ landscape:
             open_source: false
             repo_url: null
             logo: cambridge-semantics.svg
-            twitter: null
+            twitter: https://twitter.com/CamSemantics
             crunchbase: https://www.crunchbase.com/organization/no-data
             components: null
             frameworks: Data Lake
@@ -4428,6 +5368,8 @@ landscape:
             best_practice_data:
               badge: false
               percentage: null
+            twitter_data:
+              latest_tweet_date: 2021-10-25T18:07:15.000Z
           - item:
             organization: Open Data Hub
             name: Open Data Hub (Data Exploration)
@@ -8268,7 +9210,7 @@ landscape:
             open_source: false
             repo_url: null
             logo: cambridge-semantics.svg
-            twitter: null
+            twitter: https://twitter.com/CamSemantics
             crunchbase: https://www.crunchbase.com/organization/no-data
             components: null
             frameworks: Data Lake
@@ -8283,6 +9225,8 @@ landscape:
             best_practice_data:
               badge: false
               percentage: null
+            twitter_data:
+              latest_tweet_date: 2021-10-25T18:07:15.000Z
   - category:
     name: Data Governance and Security
     subcategories:
@@ -8335,6 +9279,8 @@ landscape:
             twitter: https://twitter.com/pachyderminc
             crunchbase: https://www.crunchbase.com/organization/no-data
             components: null
+            status:
+              - certified
             image_data:
               fileName: pachyderm-enterprise-provenance-and-lineage.svg
               hash: BhbDEJcI6LsIt/m56CIoyY2flsp35ghG15LjQJW43/8=
@@ -8353,6 +9299,8 @@ landscape:
             twitter: https://twitter.com/pachyderminc
             crunchbase: https://www.crunchbase.com/organization/no-data
             components: null
+            status:
+              - certified
             allow_duplicate_repo: true
             github_data:
               languages:
@@ -8622,6 +9570,8 @@ landscape:
             twitter: https://twitter.com/pachyderminc
             crunchbase: https://www.crunchbase.com/organization/no-data
             components: null
+            status:
+              - certified
             image_data:
               fileName: pachyderm-enterprise-authentication.svg
               hash: BhbDEJcI6LsIt/m56CIoyY2flsp35ghG15LjQJW43/8=
@@ -8978,6 +9928,8 @@ landscape:
             twitter: https://twitter.com/pachyderminc
             crunchbase: https://www.crunchbase.com/organization/no-data
             components: null
+            status:
+              - certified
             image_data:
               fileName: pachyderm-enterprise-authorization.svg
               hash: BhbDEJcI6LsIt/m56CIoyY2flsp35ghG15LjQJW43/8=
@@ -9586,6 +10538,8 @@ landscape:
             twitter: https://twitter.com/pachyderminc
             crunchbase: https://www.crunchbase.com/organization/no-data
             components: null
+            status:
+              - certified
             image_data:
               fileName: pachyderm-enterprise-data-catalog.svg
               hash: BhbDEJcI6LsIt/m56CIoyY2flsp35ghG15LjQJW43/8=
@@ -9604,6 +10558,8 @@ landscape:
             twitter: https://twitter.com/pachyderminc
             crunchbase: https://www.crunchbase.com/organization/no-data
             components: null
+            status:
+              - certified
             allow_duplicate_repo: true
             github_data:
               languages:
@@ -9985,6 +10941,8 @@ landscape:
             twitter: https://twitter.com/pachyderminc
             crunchbase: https://www.crunchbase.com/organization/no-data
             components: null
+            status:
+              - certified
             image_data:
               fileName: pachyderm-enterprise-data-versioning.svg
               hash: BhbDEJcI6LsIt/m56CIoyY2flsp35ghG15LjQJW43/8=
@@ -10003,6 +10961,8 @@ landscape:
             twitter: https://twitter.com/pachyderminc
             crunchbase: https://www.crunchbase.com/organization/no-data
             components: null
+            status:
+              - certified
             allow_duplicate_repo: true
             github_data:
               languages:
@@ -10619,6 +11579,25 @@ landscape:
         name: Service Integration
         items:
           - item:
+            organization: Run.AI
+            name: Run.AI Run:AI Platform (Service Integration)
+            homepage_url: https://www.run.ai/platform/
+            open_source: false
+            repo_url: null
+            logo: runai.svg
+            twitter: null
+            crunchbase: https://www.crunchbase.com/organization/no-data
+            components: null
+            status:
+              - certified
+              - ubi
+            image_data:
+              fileName: run-ai-run-ai-platform-service-integration.svg
+              hash: Ktk31YKnh7KC7gy1FfBbzvLLOBhy842SAslvW7G8ri8=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
             organization: Red Hat
             name: Red Hat Integration - Fuse (Service Integration)
             homepage_url: https://www.redhat.com/en/resources/red-hat-fuse
@@ -10637,6 +11616,25 @@ landscape:
       - subcategory:
         name: Multi-cluster Management
         items:
+          - item:
+            organization: Run.AI
+            name: Run.AI Run:AI Platform (Multi-cluster Management)
+            homepage_url: https://www.run.ai/platform/
+            open_source: false
+            repo_url: null
+            logo: runai.svg
+            twitter: null
+            crunchbase: https://www.crunchbase.com/organization/no-data
+            components: null
+            status:
+              - certified
+              - ubi
+            image_data:
+              fileName: run-ai-run-ai-platform-multi-cluster-management.svg
+              hash: Ktk31YKnh7KC7gy1FfBbzvLLOBhy842SAslvW7G8ri8=
+            best_practice_data:
+              badge: false
+              percentage: null
           - item:
             organization: Red Hat
             name: Red Hat Advanced Cluster Management (Multi-cluster Management)
@@ -10804,6 +11802,25 @@ landscape:
               percentage: null
             twitter_data:
               latest_tweet_date: 2021-05-14T00:00:42.000Z
+          - item:
+            organization: Run.AI
+            name: Run.AI Run:AI Platform (Hardware Stacks)
+            homepage_url: https://www.run.ai/platform/
+            open_source: false
+            repo_url: null
+            logo: runai.svg
+            twitter: null
+            crunchbase: https://www.crunchbase.com/organization/no-data
+            components: null
+            status:
+              - certified
+              - ubi
+            image_data:
+              fileName: run-ai-run-ai-platform-hardware-stacks.svg
+              hash: Ktk31YKnh7KC7gy1FfBbzvLLOBhy842SAslvW7G8ri8=
+            best_practice_data:
+              badge: false
+              percentage: null
   - category:
     name: Open Data Hub Partner
     subcategories:

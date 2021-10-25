@@ -3,6 +3,7 @@
 ## Prerequisites
 
 First we need to install node and have the project downloaded
+
 ### Install on Mac
 
 1. Install [Homebrew](https://brew.sh/)
@@ -11,10 +12,12 @@ First we need to install node and have the project downloaded
 
 ### Install on Linux
 
-1. `git git@github.com:opendatahub-io/odh-landscape.git`
+1. `git clone git@github.com:opendatahub-io/odh-landscape.git`
 2. Please follow [this script](https://github.com/cncf/landscapeapp/blob/master/update_server/setup.template) to install correct versions of `nodejs` and other packages on Linux.
 
 ## Development
+
+(Before recreating those steps, please follow the instructions to clone the [landscape project](https://github.com/cncf/landscapeapp))[1]
 
 1. Create a .env.local file to and override the environment variables that you want to use.
 2. Run `make install` (Install the dependencies and download the modified landscape project).
@@ -22,7 +25,16 @@ First we need to install node and have the project downloaded
 4. Run `make build` (Build a new instance of the app).
 5. Run `make dev` (Launches a local verision).
 
-Right now, as the upstream project is very opinionated about the stack and their toolchain, the only method available to generate a new landscape is cloning the main project and executing the build targeting our landscape, as stated [here](https://github.com/cncf/landscapeapp/issues/711).
+[1]Right now, as the upstream project is very opinionated about the stack and their toolchain, the only method available to generate a new landscape is cloning the main project and executing the build targeting our landscape, as stated [here](https://github.com/cncf/landscapeapp/issues/711). The steps to download the project are:
+
+1. Clone the landscape project `git clone https://github.com/opendatahub-io/landscapeapp`
+2. Place the project in the same base folder as this project, the result should be the following:
+
+```bash
+> ls
+
+odh-landscape landscapeapp
+```
 
 ## Steps to fix/change features
 

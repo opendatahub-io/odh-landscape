@@ -188,12 +188,20 @@ big_picture:
         top: 752
         left: 0
         color: 'rgb(142, 209, 216)'
+      - type: HorizontalCategory
+        category: AI Solutions
+        rows: 7
+        width: 1060
+        height: 136
+        top: 894
+        left: 0
+        color: 'rgb(74,171,204)'
       - type: VerticalCategory
         category: Data Governance and Security
         cols: 5
         width: 220
-        height: 856
-        top: 0
+        height: 1010
+        top: 20
         left: 1080
         color: 'rgb(130, 207, 231)'
 test:

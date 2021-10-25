@@ -21,7 +21,7 @@ const csvIndexes = {
   crunchbase: 16,
   componentProjects: 17,
   frameworks: 18,
-  firstSubcategory: 27,
+  firstSubcategory: 20,
 };
 
 const args = process.argv;
@@ -33,7 +33,6 @@ let landscape = [];
 let categories = [];
 let subcategories = [];
 
-console.log(process.argv);
 console.log(`Creating ${args[3]} from ${args[2]}`);
 
 fs.createReadStream(csvSource).
@@ -43,6 +42,8 @@ fs.createReadStream(csvSource).
     writeYaml(csvRecords, ymlDest);
     outputInfo();
   });
+
+console.log(`Done, output in ${args[3]}, please run make build to build a new webpage`);
 
 function writeYaml(rows, ymlFile) {
   let isv;
@@ -85,13 +86,6 @@ function outputInfo() {
       }
     });
   });
-  console.log('Add to Settings:');
-  console.log('frameworks');
-  console.log(frameworks);
-  console.log(frameworksFilter);
-  console.log('useCases');
-  console.log(useCases);
-  console.log(useCasesFilter);
 }
 
 function initLandscape(categoryRow, subcategoryRow) {
@@ -123,9 +117,6 @@ function initLandscape(categoryRow, subcategoryRow) {
     categories.push(category);
     subcategories.push(subcategory);
   }
-  // console.log(landscape);
-  // console.log(categories);
-  // console.log(subcategories);
 }
 
 function processRow(isv, rowObject) {
@@ -312,3 +303,4 @@ function rowObjectToArray(rowObject) {
 
   return rowArray;
 }
+
